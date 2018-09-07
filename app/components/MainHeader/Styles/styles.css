@@ -1,0 +1,158 @@
+/*
+ * MainHeader Styles
+ *
+ * This contains all the Styles for the MainHeader component.
+ */
+
+.headerWrapper {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding: 15px 30px 30px;
+}
+
+.headerLogoWrapper {
+    width: 40%;
+    float: left;
+  }
+.headerLogoWrapper a{
+    text-decoration: none;
+}
+.headerLinks {
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+}
+
+.headerLinks>ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.headerLinks ul li {
+    padding: 10px 0 10px 30px;
+    float: right;
+}
+
+.headerLinks>ul>li>a {
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.linkGreen {
+    border: 1px solid #3cac71;
+    border-radius: 100px;
+    background-color: #3cac71;
+    background-repeat: no-repeat;
+    font-family: Baloo Bhaijaan;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center
+}
+
+.linkGray {
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+    color: #5e5e5e;
+    text-decoration: none solid rgb(94, 94, 94);
+    line-height: 35px;
+}
+
+.linkGray:hover {
+    color: rgb(60, 172, 113);
+}
+
+.greenTitle {
+    height: 49px;
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+    color: #3cac71;
+    vertical-align: middle;
+}
+
+.imgResponsive {
+    width: 78px;
+    height: 78px;
+}
+
+.warning {
+    color: rgb(241, 58, 58);
+    font-size: 12px;
+}
+
+.linkDecorationNone {
+    text-decoration: none;
+}
+ .headerLinks ul li:nth-child(3){
+     display: none;
+ } 
+
+@media (max-width:930px) {
+    .headerLinks ul li {
+        padding: 10px 0 10px 23px;
+        float: right;
+    }
+}
+
+
+
+@media (max-width:910px) {
+    .linkGray, .linkGreen {
+        font-size: 20px;
+    }
+}
+@media (max-width:875px) {
+    .greenTitle {
+        font-size: 31px;
+    }
+     .headerLinks>ul>li>a {
+        padding: 0 20px;
+    }
+     .headerLinks ul li {
+        padding: 10px 0 10px 26px;
+    }
+}
+
+@media (max-width:780px) {
+      .greenTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .headerLogoWrapper {
+        width: 12%;
+        float: left;
+    }
+    .headerLinks {
+        width: 88%;
+        float: right;
+    }
+    .headerWrapper {
+        padding: 15px 10px 30px 2px;
+    }
+    .headerLinks>ul>li>a {
+        padding: 0 10px;
+    }
+    .headerLinks ul li {
+        padding: 10px 0 10px 20px;
+    }
+    .headerLinks ul>li:last-child {
+        padding-left: 0;
+    }
+    .greenTitle{
+        display: none;
+    }
+}
+
+@media (max-width:368px) {
+    .headerLinks ul li {
+        padding: 10px 0 10px 5px;
+    }
+    .headerLinks>ul>li>a {
+    padding: 0 8px;
+   }
+}

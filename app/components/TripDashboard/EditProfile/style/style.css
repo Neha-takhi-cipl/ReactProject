@@ -1,0 +1,99 @@
+.EditProfile .profilePicHeader {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.EditProfile .profilePicHeader img {
+  width: 64px;
+}
+.rightSpace{
+  margin:0 20px 0 0;
+}
+.EditProfile .dropDown {
+  position: absolute;
+  width: 237px;
+  background: #757575;
+  right: 0;
+  top: 89px;
+  text-align: left;
+  z-index: 1;
+}
+
+.EditProfile .dropDown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.EditProfile .dropDown ul li button {
+  outline: none;
+  cursor: pointer;
+}
+
+.EditProfile .dropDown ul li {
+  height: 72px;
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.EditProfile .dropDown ul li:first-child {
+  border-bottom: 5px solid #8a8a8a;
+}
+
+.EditProfile .userPicHeader {
+  font-family: Baloo Bhaijaan;
+  font-size: 30px;
+  color: #3cac71;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.EditProfile.mobile {
+  display: none;
+  text-align: left;
+}
+
+.EditProfile.mobile .NavList {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.EditProfile.mobile .addImg {
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+}
+
+.EditProfile.mobile .profilePic, .EditProfile.mobile .profilepic {
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+.EditProfile.mobile .dropDown .profilePic, .EditProfile.mobile .dropDown .profilepic {
+  width: inherit;
+  height: inherit;
+}
+
+.EditProfile.mobile .dropDown {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}

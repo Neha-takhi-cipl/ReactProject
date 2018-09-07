@@ -1,0 +1,130 @@
+.checkList {
+  min-height: 69px;
+  border: 1px solid #c8c8c8;
+  background-color: #e2e1e9;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  float: right;
+  margin: 0 0 15px;
+  position: relative;
+}
+
+.checkList .tripPic {
+  background: rgb(226, 225, 233);
+  height: 69px;
+  width: 66px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -32px;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+
+.checkList .tripPic .mainIcon {
+  width: 36px;
+  height: 36px;
+}
+
+.checkList .itineraryTime {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #5e5e5e;
+  text-decoration: none solid;
+  width: 40%;
+  float: left;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.checkList .itineraryTime p {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #5e5e5e;
+  margin: 0;
+  line-height: 20px;
+}
+
+.checkList .Listing {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #5e5e5e;
+  text-decoration: none solid;
+  display: inline-block;
+  width: 56%;
+  border-left: 1px solid #a3a3a3;
+  padding: 5px 0 5px 30px;
+}
+
+.checkList .Hours {
+  font-style: italic;
+}
+
+.checkList .Listing p {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #5e5e5e;
+  margin: 0;
+  line-height: 20px;
+}
+
+.checkList .Listing ul {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #5e5e5e;
+  margin: 0;
+  padding: 0 0 0 17px;
+  line-height: 20px;
+}
+
+.checkList .timeZone {
+  font-size: 11px;
+}
+
+.checkList .checkBox {
+  height: 69px;
+  width: 35px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.checkList .checkBoxIn {
+  width: 20px;
+  height: 20px;
+}
+
+.checkList .grayBackground {
+  background: #a4abbf;
+}
+
+.checkList .greenBackground {
+  background: #3cac71;
+}
+
+.checkList .bookLabel {
+  position: absolute;
+  bottom: 0;
+  font-family: Comfortaa;
+  font-size: 9px;
+  color: #5e5e5e;
+  font-weight: 700;
+}
+
+.checkList .blackIcon {
+  background: rgba(22, 22, 22, 0.959);
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.checkList .checkoutBack{
+  position: absolute;
+  bottom: 0;
+  width: 25px;
+}

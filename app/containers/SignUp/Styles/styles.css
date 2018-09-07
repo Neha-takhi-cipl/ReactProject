@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+.signup .container {
+    margin: 0 auto;
+}
+.signup .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+    padding:20px;
+    border: 2px solid #d1d1d1;
+    border-radius: 20px;
+    background: #ffffff;
+}
+.signup .whiteContainer {
+    background: #fff;
+    padding: 0 155px;
+    border-radius: 10px;
+}
+.signup .steps {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 100px;
+    margin: 0;
+    font-family: Baloo Bhaijaan;
+}
+.signup .topContainer {
+    padding: 0 0 10px;
+}
+.signup .topContainer .done {
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+    color: #3cac71;
+    text-decoration: none solid rgb(60,172,113);
+    text-align: center;
+    margin: 0;
+}
+.signup .topContainer .greenHeadTitle {
+    font-family: Baloo Bhaijaan;
+    font-size:50px;
+    color: #3cac71;
+    text-align: center;
+    margin:0;
+}
+.signup .bottom_container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.signup .facebook {
+    width: 300px;
+    height: 40px;
+    background-color: #3b579d;
+    background-repeat: no-repeat;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0;
+    cursor: pointer;
+    outline: none;
+}
+.signup .facebook img {
+    width: 19px;
+    height: 15px;
+    margin: 0 18px 0 0;
+}
+.signup .signupBtn {
+    width: 300px;
+    height: 50px;
+    background-color: #ff530d;
+    background-repeat: no-repeat;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 30px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+.signup .form_div p {
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #474747;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: center;
+    padding:0 0 5px;
+    margin:0;
+}
+.signup .formField {
+    margin: 0 0 10px;
+}
+.signup .formField .inputTypeOne {
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(200,200,200);
+    background-color: #ffffff;
+    font-family: PT Serif;
+    font-size: 14px;
+    color: rgb(166,166,166);
+    text-decoration: none solid rgb(166,166,166);
+    line-height: 66px;
+    outline: none;
+    padding: 0 10px 0 20px;
+}
+.signup .already_account {
+    font-family: Baloo Bhaijaan;
+    font-size: 14px;
+    color: #757575;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: center;
+}
+.signup .signin {
+    text-align: center;
+}
+.signup .signin a {
+    font-family: Baloo Bhaijaan;
+    font-size: 14px;
+    color: #2a34b1;
+    text-decoration: none solid rgb(158,224,255);
+}
+.signup .warning {
+    color: rgb(241,58,58);
+    font-size: 12px;
+}
+@media (max-width:875px) {
+    .signup .whiteContainer {
+        padding: 65px 37px;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:767px) {
+    .signup .innerContainer {
+        border: 1px solid #757575;
+        border-radius: 0;
+        margin: 0 30px;
+        padding: 0;
+    }
+    .signup .topContainer .greenHeadTitle {
+        font-size: 32px;
+        margin: 0;
+    }
+    .signup .innerContainer {
+        background: #fff;
+    }
+    .signup .whiteContainer {
+        padding: 15px;
+    }
+    .signup .topContainer .done {
+        font-size: 16px;
+    }
+    .signup .topContainer p {
+        font-size: 14px;
+    }
+    .signup .signup {
+        margin: 15px 0 50px;
+    }
+    .signup .facebook {
+        margin: 10px 0;
+    }
+    .signup .innerLogo {
+        display: none;
+    }
+    .signup .signupBtn {
+        margin: 15px 0 20px;
+    }
+}
+@media (max-width:420px) {
+    .signup .bottom_container {
+        max-width: 280px;
+    }
+    .signup .facebook, .signup .formField .inputTypeOne, .signup .signupBtn {
+        width: 270px;
+    }
+}
+@media (max-width:360px) {
+    .signup .bottom_container {
+        max-width: 240px;
+    }
+    .signup .facebook, .signup .formField .inputTypeOne, .signup .signupBtn {
+        width: 230px;
+    }
+}

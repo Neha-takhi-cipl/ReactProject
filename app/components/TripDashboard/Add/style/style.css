@@ -1,0 +1,27 @@
+.addbox .add{
+    border: 1px solid #a3a3a3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+}
+.addbox .addIcon{
+    font-size: 40px;
+    color: #3cac71;
+    text-decoration: none solid rgb(60, 172, 113);
+    text-align: center;
+    width: 59px;
+    height: 53px;
+    border: 2px solid #3cac71;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+    

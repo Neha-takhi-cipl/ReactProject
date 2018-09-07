@@ -1,0 +1,28 @@
+/*
+ * Book Styles
+ *
+ * This contains all the Styles for the Book component.
+ */
+.bookComp{
+    width: 114px;
+    height: 40px;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    background-color: #3cab70;
+    background-repeat: no-repeat;
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #5e5e5e;
+    text-decoration: none solid rgb(94, 94, 94);
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+}
+.bookImg{
+   width: 32px;
+   height: 32px; 
+   float:right;
+}
+.bookComp span{
+   padding-right: 12px;  
+}

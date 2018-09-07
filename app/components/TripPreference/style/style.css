@@ -1,0 +1,461 @@
+.TripPreference .infoImg {
+  width: 46px;
+  height: 46px;
+}
+
+.TripPreference .inviteDropdown {
+  width: 100%;
+  height: 265px;
+  background-color: #757575;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.TripPreference .inviteDropdown ul li {
+  display: inline-flex;
+  width: 74px;
+  height: 82px;
+  border-radius: 10px;
+  margin: 0 14px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.TripPreference .inviteDropdown ul li:first-child img {
+  width: 33px;
+  height: 33px;
+  margin: 8px auto 0;
+}
+
+.TripPreference .inviteDropdown ul li:nth-child(2) img {
+  width: 38px;
+  margin: 0 auto;
+}
+
+.TripPreference .inviteDropdown ul li:nth-child(3) img {
+  height: 42px;
+  margin: 0 auto;
+  margin: 6px auto 0;
+}
+
+.TripPreference .inviteDropdown .green {
+  background-color: #3cac71;
+}
+
+.TripPreference .inviteDropdown .gray {
+  background-color: #a3a3a3;
+  border: 2px solid #3cac71;
+}
+
+.TripPreference .inviteDropdown ul li span {
+  display: block;
+  margin: 5px 0 0;
+  font-size: 12px;
+  font-family: Comfortaa;
+  text-align: center;
+}
+
+.TripPreference .leftInvite {
+  width: 44%;
+  height: 230px;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 5px solid #8a8a8a;
+}
+
+.TripPreference .leftInvite ul {
+  overflow: hidden;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.TripPreference .leftInvite .leftInput {
+  width: 254px;
+  height: 41px;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  background-color: #fff;
+  outline: 0;
+  padding: 10px 10px 5px;
+  font-size: 14px;
+  font-family: Comfortaa;
+  margin: 20px 0 0 0;
+}
+
+.TripPreference .leftInvite .leftInput span.value {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.TripPreference .leftInvite .leftInput span.value input {
+  width: 100%;
+  text-align: right;
+  outline: none;
+}
+
+.TripPreference .leftInvite .formField_checkbox {
+  text-align: left;
+  padding: 3px 0 0 0;
+}
+
+.TripPreference .leftInvite .formField_checkbox label {
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none solid #757575;
+  line-height: 32px;
+  vertical-align: text-bottom;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+.TripPreference .leftInvite .formField_checkbox .inputcheck {
+  vertical-align: text-top;
+}
+
+.TripPreference .rightInvite {
+  width: 56%;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  height: 230px;
+  padding: 0 0 0 20px;
+}
+
+.TripPreference .rightInvite .inputTypeOne {
+  padding: 0px 10px;
+  width: 74%;
+  height: 43px;
+  border: 1px solid #a3a3a3;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none solid rgb(0, 0, 0);
+  line-height: 16px;
+  outline: none;
+}
+
+.TripPreference .rightInvite .formField {
+  margin: 18px 0 0;
+}
+
+.TripPreference .rightInvite .formField label {
+  font-family: Comfortaa;
+  font-size: 12px;
+  color: #000000;
+  width: 48px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.TripPreference .rightInvite .unCheck {
+  height: 28px;
+  width: 28px;
+  opacity: 0.7;
+  float: right;
+}
+
+.TripPreference .rightInvite .Flexible {
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: right;
+  font-family: Comfortaa;
+  margin: 0;
+}
+
+.TripPreference .editBtn {
+  width: 80px;
+  height: 38px;
+  border: 2px solid #a3a3a3;
+  background-color: #ebebeb;
+  float: right;
+  margin: 10px 0 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.TripPreference .inviteDropdown.mobile {
+  display: none;
+  text-align: left;
+}
+
+.TripPreference .inviteDropdown.mobile .NavList {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+}
+
+.TripPreference .inviteDropdown.mobile .infoImg {
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+}
+
+.TripPreference .inviteDropdown.mobile {
+  width: 100%;
+  padding: 10px;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInvite ul {
+  padding: 15px 0 0;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInvite {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 5px solid #8a8a8a;
+  border-right: 0;
+  padding: 0 0 10px;
+}
+
+.TripPreference .inviteDropdown.mobile {
+  height: auto;
+}
+
+.TripPreference .inviteDropdown.mobile ul li:nth-child(3) img {
+  margin-top: 0;
+}
+
+.TripPreference .inviteDropdown.mobile .rightInvite {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding: 5px 10px;
+}
+
+.TripPreference .inviteDropdown.mobile .rightInvite .inputTypeOne {
+  width: 85%;
+}
+
+.TripPreference .inviteDropdown.mobile .rightInvite .Flexible {
+  font-size: 12px;
+}
+
+.TripPreference .inviteDropdown.mobile ul li {
+  width: auto;
+  height: auto;
+}
+
+.TripPreference .inviteDropdown.mobile .TripPref {
+  font-family: Baloo Bhaijaan;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.TripPreference .inviteDropdown.mobile .EditBtnMob {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #3cac71;
+  float: right;
+  cursor: pointer;
+}
+
+.TripPreference .inviteDropdown.mobile .TopContainer {
+  padding: 30px 15px;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInvite ul {
+  display: inline-block;
+}
+
+.TripPreference .inviteDropdown.mobile .InnerinviteDropdown {
+  padding: 20px 0;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInviteBottom {
+  display: inline-block;
+  float: right;
+  width: 170px;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInviteBottom .value {
+  display: inline-block;
+  width: 42%;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInviteBottom .value input {
+  width: 100%;
+  text-align: center;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInviteBottom .label {
+  padding: 0 20px 0 0;
+  width: 90px;
+  display: inline-block;
+}
+
+.TripPreference .inviteDropdown.mobile .leftInvite {
+  padding: 0 10px 10px;
+}
+
+.TripPreference .inviteDropdown.mobile .TopInput {
+  display: inline-block;
+  float: right;
+}
+
+.TripPreference .inviteDropdown.mobile .tripName {
+  padding: 0;
+  width: 100%;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  font-family: Comfortaa;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+.TripPreference .tripName {
+  padding: 0;
+  width: 72%;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  font-family: Comfortaa;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+.TripPreference .checkUncheckIconWrap {
+  width: 16px;
+  height: 20px;
+  float: left;
+}
+
+@media (max-width:1300px) {
+  .TripPreference .inviteDropdown ul li {
+    width: 54px;
+    height: 62px;
+  }
+  .TripPreference .inviteDropdown ul li:first-child img, .TripPreference .inviteDropdown ul li:nth-child(2) img, .TripPreference .inviteDropdown ul li:nth-child(3) img {
+    width: 20px;
+    height: 20px;
+  }
+  .TripPreference .inviteDropdown ul li span {
+    font-size: 10px;
+  }
+  .TripPreference .rightInvite .formField label {
+    display: block;
+  }
+  .TripPreference .rightInvite .inputTypeOne {
+    height: 35px;
+  }
+  .TripPreference .leftInvite .leftInput {
+    width: 100%;
+    max-width: 195px;
+    font-size: 12px;
+  }
+  .TripPreference .leftInvite .leftInput span.value {
+    width: 35%;
+  }
+  .TripPreference .rightInvite .formField {
+    margin: 8px 0 0;
+  }
+}
+
+@media (max-width:1023px) {
+  .TripPreference .inviteDropdown.mobile {
+    display: block;
+  }
+  .inviteDropdown.desktop {
+    display: none;
+  }
+  .TripPreference .inviteDropdown ul li {
+    width: 54px;
+    height: 62px;
+  }
+  .TripPreference .inviteDropdown ul li:first-child img {
+    width: 33px;
+    height: 33px;
+    margin: 4px auto 0;
+  }
+  .TripPreference .inviteDropdown ul li:nth-child(2) img {
+    width: 38px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .TripPreference .inviteDropdown ul li:nth-child(3) img {
+    height: 42px;
+    width: auto;
+  }
+  .TripPreference .inviteDropdown ul li span {
+    font-size: 10px;
+  }
+  .TripPreference .rightInvite .formField label {
+    display: inline-block;
+  }
+  .TripPreference .rightInvite .inputTypeOne {
+    height: 35px;
+  }
+  .TripPreference .leftInvite .leftInput {
+    width: 100%;
+    max-width: 195px;
+    font-size: 12px;
+  }
+  .TripPreference .leftInvite .leftInput span.value {
+    width: 35%;
+  }
+  .TripPreference .rightInvite .formField {
+    margin: 12px 0 0;
+  }
+  .PreferenceAdminBottom .users, .PreferenceAdminBottom .updated {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width:580px) {
+  .TripPreference .rightInvite .formField label {
+    display: block;
+  }
+  .PreferenceAdminBottom .users, .PreferenceAdminBottom .updated {
+    font-size: 13px !important;
+    float: none !important;
+    font-weight: bold;
+  }
+}
+
+@media (max-width:382px) {
+  .TripPreference .inviteDropdown ul li:first-child img, .TripPreference .inviteDropdown ul li:nth-child(2) img, .TripPreference .inviteDropdown ul li:nth-child(3) img {
+    width: 25px;
+    height: 25px;
+  }
+  .TripPreference .inviteDropdown.mobile .leftInviteBottom {
+    width: 130px;
+    font-size: 12px;
+  }
+  .TripPreference .inviteDropdown.mobile .leftInviteBottom .label {
+    width: 75px;
+  }
+  .TripPreference .inviteDropdown.mobile {
+    padding: 10px 10px 18px;
+  }
+}

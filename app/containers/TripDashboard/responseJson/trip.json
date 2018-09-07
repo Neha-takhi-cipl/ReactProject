@@ -1,0 +1,220 @@
+{
+  "status": 200,
+  "success": true,
+  "message": "Trip Found",
+  "data": [
+      {
+          "trip": [
+              {
+                  "optionList": {
+                      "flight": true,
+                      "accomodation": true,
+                      "activities": false
+                  },
+                  "tripDestination": {
+                      "location": "India to Australia",
+                      "flexible": true
+                  },
+                  "tripSchedule": {
+                      "departureDate": "11/12/2018-11/12/2018",
+                      "flexible": true
+                  },
+                  "totalBudget": 1200,
+                  "travelersCount": 3,
+                  "underFifteenTravellers": 1,
+                  "invitedFriend": [],
+                  "isAssigned": false,
+                  "assignedTo": [],
+                  "createdOn": 1529052285475,
+                  "updatedOn": 0,
+                  "deletedOn": 0,
+                  "_id": "5b237c94cb9d91235e3733f4",
+                  "tripName": "India to australia",
+                  "otherDetails": "we can fly",
+                  "createdBy": {
+                      "_id": "5b22891da8866542667f394d",
+                      "fullName": "Pravin Kumar",
+                      "userType": "traveller"
+                  },
+                  "__v": 0
+              }
+          ],
+          "itinerary": [
+              {
+                  "_id": "Fri 18 Dec 18",
+                  "Itinerary": [
+                      {
+                          "_id": "5b238e834c2f932514fc45c1",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "Fri 18 Dec 18",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "flights",
+                          "__v": 0
+                      },
+                      {
+                          "_id": "5b238e844c2f932514fc45c2",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "Fri 18 Dec 18",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "flights",
+                          "__v": 0
+                      },
+                      {
+                          "_id": "5b238e854c2f932514fc45c3",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "Fri 18 Dec 18",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "other",
+                          "__v": 0
+                      },
+                      {
+                          "_id": "5b238e864c2f932514fc45c4",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "Fri 18 Dec 18",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "activities",
+                          "__v": 0
+                      },
+                      {
+                          "_id": "5b238e874c2f932514fc45c5",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "Fri 18 Dec 18",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "transport",
+                          "__v": 0
+                      }
+                  ],
+                  "totalCost": 0
+              },
+              {
+                  "_id": "12",
+                  "Itinerary": [
+                      {
+                          "_id": "5b23863b4c2f932514fc45b8",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "12",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "accommodation",
+                          "__v": 0
+                      },
+                      {
+                          "_id": "5b2386704c2f932514fc45b9",
+                          "miscellaneous": {
+                              "departDate": 0,
+                              "departTime": 0,
+                              "flightDuration": 0,
+                              "checkInDate": 0,
+                              "checkInTime": 0,
+                              "checkOutDate": 0,
+                              "duration": 0,
+                              "startDate": 0,
+                              "totalCost": 0
+                          },
+                          "book": false,
+                          "actionDate": "12",
+                          "isDeleted": 0,
+                          "createdOn": 1529054709784,
+                          "updatedOn": 0,
+                          "deletedOn": 0,
+                          "tripId": "5b237c94cb9d91235e3733f4",
+                          "name": "flights",
+                          "__v": 0
+                      }
+                  ],
+                  "totalCost": 0
+              }
+          ],
+          "itineraryCost": 0
+      }
+  ]
+}

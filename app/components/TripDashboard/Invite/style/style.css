@@ -1,0 +1,403 @@
+.invite .infoImg {
+  width: 46px;
+  height: 46px;
+}
+
+.invite .inviteDropdown {
+  position: absolute;
+  width: 700px;
+  right: 0;
+  top: 110px;
+  text-align: left;
+  z-index: 1;
+}
+
+.invite .InnerinviteDropdown {
+  background-color: #757575;
+  padding: 20px;
+}
+
+.invite .inviteDropdown ul li {
+  display: inline-flex;
+  width: 74px;
+  height: 82px;
+  border-radius: 10px;
+  margin: 0 14px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.invite {
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.invite .inviteDropdown ul li:first-child img {
+  width: 29px;
+  height: 33px;
+  margin: 8px auto 0;
+}
+
+.invite .inviteDropdown ul li:nth-child(2) img {
+  width: 36px;
+  margin: 0 auto;
+}
+
+.invite .inviteDropdown ul li:nth-child(3) img {
+  height: 38px;
+  margin: 0 auto;
+  margin: 6px auto 0;
+}
+
+.invite .inviteDropdown .green {
+  background-color: #3cac71;
+}
+
+.invite .inviteDropdown .gray {
+  background-color: #a3a3a3;
+  border: 2px solid #3cac71;
+}
+
+.invite .inviteDropdown ul li span {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+  font-family: Comfortaa;
+  text-align: center;
+}
+
+.invite .leftInvite {
+  width: 44%;
+  height: 230px;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 5px solid #8a8a8a;
+}
+
+.invite .leftInvite ul {
+  overflow: hidden;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.invite .leftInvite .leftInput {
+  width: 90%;
+  height: 41px;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  background-color: #fff;
+  outline: 0;
+  padding: 10px 10px 5px;
+  font-size: 14px;
+  font-family: Comfortaa;
+  margin: 20px 0 0 0;
+}
+
+.invite .leftInvite .leftInput span.value {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.invite .leftInvite .leftInput span.value input {
+  width: 100%;
+  text-align: right;
+  outline: none;
+}
+
+.invite .leftInvite .formField_checkbox {
+  text-align: right;
+  padding: 3px 0 0 0;
+  width: 84%;
+  display: block;
+}
+
+.invite .leftInvite .checkUncheckIconWrap {
+  width: 16px;
+  height: 20px;
+  display:inline-block;
+}
+
+.invite .leftInvite .smallIcon {
+  width: 16px;
+  height: 16px;
+  z-index: 2;
+  float: left;
+  box-shadow: 0 0 0.001px #FFFFFF;
+}
+.invite .leftInvite .boxHeight {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.invite .leftInvite .formField_checkbox label {
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none solid #757575;
+  line-height: 32px;
+  vertical-align: text-bottom;
+  margin: 0 10px 0 0;
+}
+
+.invite .leftInvite .formField_checkbox .inputcheck {
+  vertical-align: text-top;
+}
+
+.invite .rightInvite {
+  width: 56%;
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  height: 230px;
+  padding: 0 0 0 15px;
+}
+
+.invite .rightInvite .inputTypeOne {
+  padding: 0px 10px;
+  width: 72%;
+  height: 43px;
+  border: 1px solid #a3a3a3;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none solid rgb(0, 0, 0);
+  line-height: 16px;
+  outline: none;
+  float: left;
+}
+
+.invite .rightInvite .formField {
+  margin: 12px 0 0;
+  clear: both;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.invite .rightInvite .formField label {
+  font-family: Comfortaa;
+  font-size: 12px;
+  color: #000000;
+  width: 48px;
+  display: inline-block;
+  float: left;
+}
+
+.invite .rightInvite .unCheck {
+  height: 28px;
+  width: 28px;
+  opacity: 0.7;
+  float: right;
+  margin: 0 0 0 12px;
+}
+
+.invite .rightInvite .Flexible {
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: right;
+  font-family: Comfortaa;
+  margin: 0;
+}
+
+.invite .editBtn {
+  width: 80px;
+  height: 38px;
+  border: 2px solid #a3a3a3;
+  background-color: #ebebeb;
+  float: right;
+  outline: 0;
+  cursor: pointer;
+  font-family: Baloo Bhaijaan;
+  font-size: 24px;
+  color: #000000;
+  display: none;
+}
+
+.invite .inviteDropdown ul li:last-child {
+  margin: 0;
+}
+
+.invite.mobile {
+  display: none;
+  text-align: left;
+}
+
+.invite.mobile .NavList {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+}
+
+.invite.mobile .infoImg {
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+}
+
+.invite.mobile .inviteDropdown {
+  width: 100%;
+}
+
+.invite.mobile .leftInvite {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 5px solid #8a8a8a;
+  border-right: 0;
+  padding: 0 0 10px;
+}
+
+.invite.mobile .rightInvite {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding: 5px 10px 0;
+}
+
+.invite.mobile .rightInvite .inputTypeOne {
+  width: 84%;
+}
+
+.invite.mobile .rightInvite .Flexible {
+  font-size: 12px;
+}
+
+.invite.mobile .inviteDropdown ul li {
+  width: 65px;
+  height: 70px;
+}
+
+.invite.mobile .inviteDropdown {
+  width: 100%;
+  top: 0;
+  background: #fff;
+  height: 100%;
+}
+
+.invite.mobile .TripPref {
+  font-family: Baloo Bhaijaan;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.invite.mobile .EditBtnMob {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #3cac71;
+  float: right;
+  cursor: pointer;
+}
+
+.invite.mobile .TopContainer {
+  padding: 30px 15px;
+}
+
+.invite.mobile .leftInvite ul {
+  display: inline-block;
+}
+
+.invite.mobile .InnerinviteDropdown {
+  padding: 20px 0;
+}
+
+.invite.mobile .leftInviteBottom {
+  display: inline-block;
+  float: right;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #ffffff;
+  width:42%;
+}
+
+.invite.mobile .leftInviteBottom .value {
+  display: inline-block;
+  width: 42%;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.invite.mobile .leftInviteBottom .value input {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  color: #000000;
+}
+.invite.mobile .leftInviteBottom .itemWrapOne{
+  margin-top: 2px;
+}
+.invite.mobile .leftInviteBottom .label {
+  padding: 0 20px 0 0;
+  float: left;
+  width: 77px;
+}
+
+.invite.mobile .leftInvite {
+  padding: 0 10px 10px;
+}
+
+.invite.mobile .TopInput {
+  display: inline-block;
+  float: right;
+}
+
+@media (max-width:520px){
+    .invite .inviteDropdown ul li {
+      margin:0 5px 0 0;
+    }
+    .invite.mobile .inviteDropdown ul li {
+      width: 60px;
+      height: 65px;
+    }
+    .invite .leftInvite .boxHeight {
+      height: 48px;
+    } 
+    .invite .inviteDropdown ul li:first-child img {
+      width: 26px;
+    } 
+    .invite .inviteDropdown ul li:nth-child(2) img {
+      width: 30px;
+    }
+    .invite .inviteDropdown ul li:nth-child(3) img {
+      height: 30px;
+    }
+    .invite .inviteDropdown ul li span {
+      font-size: 11px;
+    }  
+    .invite.mobile .leftInviteBottom .label{
+      font-size:12px;
+      width: 68px;
+    }
+}
+@media (max-width:360px){
+  .invite.mobile .leftInvite ul{
+    display: block;
+  }
+  .invite.mobile .leftInviteBottom {
+    display: block;
+    width: auto;
+    float: none;
+    margin: 15px 0 0;
+  }
+}

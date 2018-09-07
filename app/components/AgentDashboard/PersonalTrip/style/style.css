@@ -1,0 +1,24 @@
+/*
+ * PersonalTrip Styles
+ *
+ * This contains all the Styles for the PersonalTrip component.
+ */
+.PersonalTrip{
+    width: 122px;
+    height: 36px;
+    border: 1px none #3cac71;
+    border-radius: 2px;
+    background-color: #3cac71;
+    background-repeat: no-repeat;
+    font-family: Comfortaa;
+    font-size: 14px;
+    color: #ffffff;
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.PersonalTrip span{
+   padding-right: 14px;  
+   padding: 0;
+}

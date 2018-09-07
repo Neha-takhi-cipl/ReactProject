@@ -1,0 +1,74 @@
+.AgentHeader{
+    background-color: #fff;
+    height: 110px;
+    padding:0;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    position: relative;
+}
+.AgentHeader .Personal{
+    float: left;
+    width: 33%;
+    padding:0 0 26px 26px;   
+}
+.AgentHeader .Agent {
+    width: 33%;
+    float: left;
+    position: relative;
+    padding: 0 0 26px;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Baloo Bhaijaan;
+    font-size: 36px;
+    color: #3cac71;
+}
+
+.AgentHeader .AgentEdit{
+    float: left;
+    width: 34%;
+    position: relative;
+    padding:0px 26px 10px 0;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.AgentHeader.Dashboard_Mobile{
+       display:none;
+}
+
+@media (max-width:885px){
+.AgentHeader .Agent {
+    font-size: 32px;
+}
+
+}
+
+@media (max-width:767px){
+.AgentHeader.Dashboard_Mobile{
+       display:block !important;
+       height:70px;
+   } 
+.AgentHeader.Dashboard_Desktop{
+       display:none;
+   } 
+.AgentHeader.Dashboard_Mobile .Agent{
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    padding:0;
+}
+.AgentHeader.Dashboard_Mobile .bm-burger-bars {
+    background: #3cac71;
+}
+.AgentHeader.Dashboard_Mobile .bm-burger-button{
+    top: 25px !important;
+}
+    
+}
+
+
+

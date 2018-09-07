@@ -1,0 +1,76 @@
+.AdminHeader{
+    background-color: #fff;
+    height: 110px;
+    padding:0;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+}
+.AdminHeader .Agents{
+    float: left;
+    width: 33%;
+    padding:0 0 15px 26px;   
+}
+.AdminHeader .Admin {
+    width: 33%;
+    float: left;
+    position: relative;
+    padding: 0 0 26px;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Baloo Bhaijaan;
+    font-size: 36px;
+    color: #ff5e3a;
+}
+
+.AdminHeader .AgentEdit{
+    float: left;
+    width: 34%;
+    position: relative;
+    padding:0px 26px 10px 0;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.AdminHeader.Dashboard_Mobile{
+       display:none;
+}
+
+@media (max-width:885px){
+.AdminHeader .Admin {
+    font-size: 30px;
+}
+
+}
+
+@media (max-width:767px){
+.AdminHeader.Dashboard_Mobile{
+       display:block !important;
+       height:70px;
+   } 
+.AdminHeader.Dashboard_Desktop{
+       display:none;
+   } 
+.AdminHeader .Admin {
+    width: 100%;
+    padding: 0 0 12px;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+}
+.AdminHeader.Dashboard_Mobile .bm-burger-bars {
+    background: #3cac71;
+}
+.AdminHeader.Dashboard_Mobile .bm-burger-button{
+    top: 25px !important;
+}
+    
+}
+
+
+

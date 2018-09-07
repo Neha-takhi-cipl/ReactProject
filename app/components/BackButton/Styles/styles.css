@@ -1,0 +1,12 @@
+/*
+ * BackButton Styles
+ *
+ * This contains all the Styles for the BackButton component.
+ */
+.backBtn{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 33px;
+    left: 17px;
+}

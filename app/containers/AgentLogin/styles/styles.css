@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.agentLogin .container {
+  margin: 0 auto;
+}
+
+.agentLogin .headsubTitle {
+  text-align: center;
+  margin-bottom: 14%;
+  font-family: PT Sans;
+}
+
+.agentLogin .innerContainer {
+  max-width: 879px;
+  margin: 0 auto;
+  padding: 65px 28px 65px;
+  border: 2px solid #d1d1d1;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.agentLogin .whiteContainer {
+  background: #fff;
+  padding: 25px 155px 200px;
+  border-radius: 10px;
+}
+
+.agentLogin .steps {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 0 100px;
+  margin: 0;
+  font-family: Baloo Bhaijaan;
+}
+
+.agentLogin .topContainer {
+  padding: 0 0 10px;
+}
+
+.agentLogin .topContainer .done {
+  font-family: Baloo Bhaijaan;
+  font-size: 32px;
+  color: #3cac71;
+  text-decoration: none solid rgb(60, 172, 113);
+  text-align: center;
+  margin: 0;
+}
+
+.agentLogin .topContainer .greenHeadTitle {
+  height: auto;
+  font-family: Baloo Bhaijaan;
+  font-size: 60px;
+  color: #3cac71;
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.agentLogin .bottom_container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.agentLogin .facebook {
+  width: 300px;
+  height: 50px;
+  background-color: #3b579d;
+  background-repeat: no-repeat;
+  font-family: PT Sans;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 97px 0 0;
+  cursor: pointer;
+}
+
+.agentLogin .facebook img {
+  width: 19px;
+  height: 15px;
+  margin: 0 18px 0 0;
+}
+
+.agentLogin .Login {
+  width: 300px;
+  height: 50px;
+  background-color: #ff530d;
+  background-repeat: no-repeat;
+  font-family: PT Sans;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+.agentLogin .form_div p {
+  font-family: PT Sans;
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none solid rgb(117, 117, 117);
+  text-align: center;
+}
+
+.agentLogin .formField {
+  margin: 0 0 14px;
+}
+
+.agentLogin .formField .inputTypeOne {
+  width: 300px;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: rgb(163, 163, 163);
+  border-style: solid;
+  background-color: #ffffff;
+  font-family: PT Serif;
+  font-size: 14px;
+  text-decoration: none solid rgb(166, 166, 166);
+  line-height: 66px;
+  outline: none;
+  padding: 0 10px 0 20px;
+}
+
+.agentLogin .notAccount {
+  font-family: Baloo Bhaijaan;
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none solid rgb(117, 117, 117);
+  text-align: center;
+}
+
+.agentLogin .signin {
+  text-align: center;
+}
+
+.agentLogin .signin a {
+  font-family: Baloo Bhaijaan;
+  font-size: 14px;
+  color: #2a34b1;
+  text-decoration: none solid rgb(158, 224, 255);
+}
+
+.agentLogin .warning {
+  color: rgb(241, 58, 58);
+  font-size: 12px;
+}
+
+.agentLogin .hide {
+  display: none;
+}
+
+.agentLogin .linkOne {
+  font-family: "Pt Sans";
+  text-align: center;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.agentLogin .linkOne a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.agentLogin .facebookLogin {
+  width: 300px;
+  height: 50px;
+  background-color: #3b579d;
+  background-repeat: no-repeat;
+  font-family: PT Sans;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.agentLogin .marginTopTwenty {
+  margin-top: 20%;
+}
+
+.agentLogin .marginBottomfifteen {
+  margin-bottom: 20px;
+}
+#app,#app > div{
+    height:100%;
+}
+@media (max-width:875px) {
+    .agentLogin .whiteContainer {
+        padding: 65px 37px;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:767px) {
+    .agentLogin .fbTop {
+        display: block;
+    }
+    .agentLogin .fbBottom {
+        display: none;
+    }
+    .agentLogin .innerContainer {
+        border: 1px solid #757575;
+        border-radius: 0;
+        margin: 0 30px;
+        padding: 0;
+    }
+    .agentLogin .topContainer .greenHeadTitle {
+        font-size: 32px;
+        margin: 0;
+    }
+    .agentLogin .innerContainer {
+        background: #fff;
+    }
+    .agentLogin .whiteContainer {
+        padding: 15px;
+    }
+    .agentLogin .topContainer .done {
+        font-size: 16px;
+    }
+    .agentLogin .topContainer p {
+        font-size: 14px;
+    }
+    .agentLogin .signup {
+        margin: 15px 0 50px;
+    }
+    .agentLogin .facebook {
+        margin: 10px 0;
+    }
+    .agentLogin .innerLogo {
+        display: none;
+    }
+    .agentLogin .signupBtn {
+        margin: 15px 0 20px;
+    }
+    .agentLogin .notAccount {
+        padding-top: 40px;
+    }
+}
+@media (max-width:420px) {
+    .agentLogin .bottom_container {
+        max-width: 280px;
+    }
+    .agentLogin .facebookLogin, .agentLogin .formField .inputTypeOne, .agentLogin .Login {
+        width: 270px;
+    }
+}
+@media (max-width:360px) {
+    .agentLogin .bottom_container {
+        max-width: 240px;
+    }
+    .agentLogin .facebookLogin, .agentLogin .formField .inputTypeOne, .agentLogin .Login {
+        width: 230px;
+    }
+}

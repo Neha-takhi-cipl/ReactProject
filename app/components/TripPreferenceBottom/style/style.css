@@ -1,0 +1,18 @@
+.TripPreferenceBottom{
+    height: 51px;
+    border: 2px solid #a4abbf;
+    font-family: Comfortaa;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px 0;
+}
+.orangeBackground{
+  background-color: #ffb828;
+  color: #ffffff;
+}
+.greyBackground {
+    background-color: rgb(226, 225, 233);
+    color: #3cac71;
+}

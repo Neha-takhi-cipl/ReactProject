@@ -1,0 +1,69 @@
+.Notifications .addDropdown{
+    position: absolute;
+    width: 343px;
+    background-color: #757575;
+    right: 150px;
+    top: 110px;
+    text-align: left;
+    padding: 0;
+    z-index: 1;
+}
+.Notifications .addDropdown p.topHeading{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ebebeb;
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 36px;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+.Notifications .addDropdown ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Notifications .addDropdown ul li{
+    padding: 7px 10px;
+    border-bottom: 1px solid #ebebeb;
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 36px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+.Notifications .addDropdown ul li:last-child{
+    border-bottom:none;
+}
+.Notifications.mobile{
+    display:none;  
+    text-align:left; 
+ }
+.Notifications.mobile .addDropdown {
+    position: absolute;
+    width: 100%;
+    background-color: #757575;
+    right: 0;
+    text-align: left;
+}
+.Notifications.mobile .addImg{
+    width: 28px;
+    cursor: pointer;
+}
+.Notifications.mobile .addDropdown ul li{
+    padding:10px;
+}
+.Notifications .addDropdown .addImg{
+    width: 28px;
+    height: 28px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.Notifications.mobile{
+    display:none;  
+    text-align:left; 
+ }
+

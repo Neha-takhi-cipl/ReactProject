@@ -1,0 +1,28 @@
+/*
+ * InnerLogo Styles
+ *
+ * This contains all the Styles for the InnerLogo component.
+ */
+.greenTitle{
+    height: 49px;
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+    color: #3cac71;
+}
+.imgResponsive {
+    width: 78px;
+    height: 78px;
+}
+ .innerLogo {
+    position: absolute;
+    padding: 15px 0 0 27px;
+}
+.innerLogo a{
+    text-decoration: none;
+}
+@media (max-width:1550px) {
+   .innerLogo {
+        position: static;
+        padding: 15px 0 0 27px;
+    }
+}

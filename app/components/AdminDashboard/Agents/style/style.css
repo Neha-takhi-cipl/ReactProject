@@ -1,0 +1,24 @@
+.Agents .Heading{
+    font-family: Baloo Bhaijaan;
+    font-size: 24px;
+    color: #757575;
+    cursor: pointer;
+
+}
+.Agents .AgentInfo {
+    position: absolute;
+    left: 0;
+    top:0;
+    text-align:left;
+    background: #DEDDE6;
+    width: 503px;
+    height: 200vh;
+    border: 1px solid;
+    z-index: 1;
+}
+
+@media (max-width:767px){
+    .Agents .AgentInfo{
+        width:100%;
+    }
+}

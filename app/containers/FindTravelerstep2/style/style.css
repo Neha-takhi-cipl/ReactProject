@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+.Roaming_step2 .container {
+    background: #DEDDE6;
+    padding: 0 0 20px;
+    height: 100vh;
+    float: left;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+}
+.Roaming_step2 .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+}
+.Roaming_step2 .whiteContainer {
+    background: #fff;
+    padding: 25px 155px 25px;
+    position: relative;
+}
+.Roaming_step2 .steps {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 20px;
+    margin: 0;
+    font-family: Baloo Bhaijaan;
+}
+.Roaming_step2 .topContainer {
+    padding: 0 0 10px;
+}
+.Roaming_step2 .topContainer p {
+    color: #3cac71;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    font-family: Baloo Bhaijaan;
+}
+.Roaming_step2 .bottom_container {
+    max-width: 570px;
+    margin: 0 auto;
+}
+.Roaming_step2 .form_div .inputTypeOne {
+    padding: 0px 10px;
+    width: 480px;
+    height: 55px;
+    border: 1px solid #a3a3a3;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-family: Comfortaa;
+    font-size: 17px;
+    color: #000000;
+    text-decoration: none solid rgb(0,0,0);
+    line-height: 20px;
+    outline: none;
+    padding: 10px;
+}
+.Roaming_step2 .form_div .formField {
+    margin: 0 0 20px;
+}
+.Roaming_step2 textarea.inputTypeOne::placeholder {
+    display: none !important;
+}
+.Roaming_step2 textarea.inputTypeOne{
+    padding:16px 10px 10px !important;
+}
+.Roaming_step2 .unCheck {
+    height: 32px;
+    width: 32px;
+    opacity: 0.7;
+    margin-left: 35px;
+}
+.Roaming_step2 .Flexible {
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #757575;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: right;
+    margin: 0;
+}
+.Roaming_step2 .back {
+    width: 173px;
+    display: inline-block;
+}
+.Roaming_step2 .back .homebutton, .Roaming_step2 .next .homebutton {
+    height: 47px;
+}
+.Roaming_step2 .next {
+    width: 173px;
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+.Roaming_step2 .bottom_btn {
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    margin:20px 0 0 0;
+}
+.Roaming_step2 .backButton{
+    display: none;
+}
+
+
+/* Responsive */
+
+@media (max-width:875px) {
+    .Roaming_step2 .whiteContainer {
+        padding: 65px 50px;
+        border: none;
+        border-radius: 0;
+    }
+    .Roaming_step2 .Flexible {
+        max-width: 572px;
+    }
+}
+@media (max-width:767px) {
+    .Roaming_step2 .container {
+        background: #fff;
+    }
+    .Roaming_step2 .whiteContainer {
+        padding: 39px 17px;
+    }
+    .Roaming_step2 .topContainer p {
+        font-size: 24px;
+    }
+    .Roaming_step2 .steps {
+        padding: 0 0 20px;
+        font-size: 14px;
+    }
+    .Roaming_step2 .back {
+        display: none;
+    }
+    .Roaming_step2 .next {
+        margin: 0;
+        width: 122px;
+    }
+    .Roaming_step2 .bottom_btn {
+        margin: 0;
+    }
+    .Roaming_step2 .form_div .inputTypeOne {
+        height: 68px;
+    }
+    .Roaming_step2 .innerLogo {
+        display: none;
+    }
+    .Roaming_step2 .backButton{
+        display: block;
+    }
+}
+@media (max-width:590px) {
+    .Roaming_step2 .bottom_container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .Roaming_step2 .form_div .inputTypeOne {
+        width: 320px;
+    }
+    .Roaming_step2 .unCheck {
+        margin-left: 20px;
+    }
+    .Roaming_step2 .Flexible {
+        font-size: 14px;
+    }
+}
+@media (max-width:420px) {
+    .Roaming_step2 .bottom_container {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .Roaming_step2 .form_div .inputTypeOne {
+        width: 253px;
+    }
+    .Roaming_step2 .unCheck {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width:340px){
+
+    .Roaming_step2 .bottom_container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .Roaming_step2 .form_div .inputTypeOne{
+        width: 240px
+    }
+    .Roaming_step2 .unCheck {
+       margin-left: 10px;
+    }
+
+}

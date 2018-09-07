@@ -1,0 +1,57 @@
+.EditTrip {
+  padding: 0 20px;
+}
+
+.EditTrip button {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 0 15px 0;
+  width: 90%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.EditTrip button:before {
+  content: "-";
+  padding-right: 10px;
+}
+
+.EditTrip .EditName {
+  height: 45px;
+  background-color: #ebebeb;
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #757575;
+  width: 90%;
+  padding: 0 20px;
+}
+
+.EditTrip img.EditImg {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.EditTrip .iconOne {
+  padding: 20px 0 15px 0;
+  width: 7%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EditTrip .iconTwo {
+  height: 46px;
+  width: 7%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

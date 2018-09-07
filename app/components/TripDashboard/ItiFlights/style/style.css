@@ -1,0 +1,201 @@
+.itiFlights {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.itiFlights .formInput {
+  width: 146px;
+  height: 44px;
+  padding: 0px 10px;
+  border: 1px solid #5e5e5e;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #3cac71;
+  line-height: 14px;
+}
+
+.itiFlights .formInputTime {
+  width: 85px;
+  height: 45px;
+  padding: 0px 10px;
+  border: 1px solid #5e5e5e;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #383636;
+  line-height: 14px;
+  float:left;
+}
+
+.itiFlights .formInputAES {
+  width: 53px;
+  height: 45px;
+  padding: 0px 7px;
+  border: 1px solid #5e5e5e;
+  border-left: 0;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 11px;
+  color: #383636;
+  line-height: 14px;
+  text-align: center;
+}
+
+.itiFlights .formGroup {
+  display: inline-block;
+}
+
+.itiFlights .fRight {
+  float: right;
+}
+
+.itiFlights .fleft {
+  float: left;
+}
+
+.itiFlights .optional {
+  width: 375px;
+  background-color: #a4abbf;
+  padding: 28px 25px;
+  position: relative;
+  float: left;
+}
+
+.itiFlights .optionHeading {
+  font-family: Baloo Bhaijaan;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 39px 0 12px;
+}
+.itiFlights .optionalDetails .formGroup .formInput.audInput {
+    width: 90px;
+}
+.itiFlights .optionalDetails .formGroup .formInput {
+  width: 144px;
+  height: 34px;
+  padding: 0px 10px;
+  border: 1px solid #5e5e5e;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #383636;
+  line-height: 14px;
+  margin: 0 0 15px;
+  padding:10px;
+}
+
+.itiFlights .optionalDetails .formGroup.full {
+  display: block;
+}
+
+.itiFlights .optionalDetails .formGroup.full .formInput {
+  width: 322px;
+  margin: 34px 0 0;
+}
+
+.itiFlights .EditMode button {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #757575;
+  font-weight: bold;
+  padding: 20px 15px 0 0;
+}
+
+.itiFlights .AUD {
+  width: 55px;
+  height: 34px;
+  padding: 0px 10px;
+  border: 1px solid #5e5e5e;
+  background-color: #d1d1d1;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #a3a3a3;
+  text-decoration: none solid rgb(163, 163, 163);
+  cursor: pointer;
+}
+
+.itiFlights .formInput.audInput {
+  width: 90px;
+}
+
+.itiFlights .itBack {
+  width: 20px;
+  height: 20px;
+}
+
+.itiFlights .btnItBack {
+  width: 50px;
+  height: 50px;
+  margin-right: 100px;
+  cursor:pointer;
+}
+
+.itiFlights .midIcon {
+  width: 36px;
+  height: 36px;
+  cursor:pointer;
+}
+
+.itiFlights .btnItNext {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  margin-left: 100px;
+  cursor:pointer; 
+}
+
+.itiFlights .departDetails {
+  position: absolute;
+  bottom: 90px;
+  text-align: left;
+}
+
+.itiFlights .optionalDetails {
+  float: left;
+  width: 100%;
+}
+
+.itiFlights .btnItClose {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #3cac71;
+  position: absolute;
+  padding: 30%;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+.itiFlights .nextPreviousWraper {
+  position: relative;
+}
+
+.itiFlights .amountInfo {
+  position: absolute;
+  right: 16px;
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #a3a3a3;
+}
+
+.itiFlights .react-datepicker__input-container input {
+  height: 45px;
+  padding: 0px 10px;
+  border: 1px solid #5e5e5e;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #3cac71;
+  line-height: 14px;
+}
+.itiFlights .heightFixOne{
+  height: 50px;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.itiFlights .otherDetailsFix{
+  position: absolute;
+  bottom: 0px;
+}

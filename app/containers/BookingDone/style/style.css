@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+.Booking .container {
+    background: #DEDDE6;
+    padding: 0 0 100px;
+    height:100vh;
+}
+.Booking .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+}
+.Booking .whiteContainer {
+    background: #fff;
+    padding:0 155px 40px;
+    position: relative;
+}
+.Booking .steps {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 100px;
+    margin: 0;
+    font-family: Baloo Bhaijaan;
+}
+.Booking .topContainer{
+    padding: 40px 0 10px;
+}
+.Booking .topContainer .done {
+    font-family: Baloo Bhaijaan;
+    font-size: 32px;
+    color: #3cac71;
+    text-decoration: none solid rgb(60,172,113);
+    text-align: center;
+    margin: 0;
+}
+.Booking .topContainer p {
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #3cac71;
+    text-align: center;
+    margin: 0;
+}
+.Booking .bottom_container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.Booking .facebook {
+    width: 300px;
+    height: 50px;
+    background-color: #3b579d;
+    background-repeat: no-repeat;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 40px;
+    cursor: pointer;
+}
+.Booking .facebook img {
+    width: 19px;
+    height: 15px;
+    margin:0 18px 0 0;
+}    
+.Booking .signupBtn{
+    width: 300px;
+    height: 50px;
+    background-color: #ff530d;
+    background-repeat: no-repeat;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Booking .form_div p {
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #474747;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: center;
+    margin:14px 0;
+}
+.Booking .form_div p span{
+    color:#757575;
+}
+.Booking .formField {
+    margin: 0 0 14px;
+}
+.Booking .formField .inputTypeOne {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    font-family: PT Serif;
+    font-size: 14px;
+    color: #a6a6a6;
+    text-decoration: none solid rgb(166,166,166);
+    line-height: 66px;
+    outline: none;
+    padding: 0 10px 0 20px;
+}
+.Booking .already_account {
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #757575;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: center;
+}
+.Booking .signin {
+    text-align: center;
+}
+.Booking .signin {
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #9ee0ff;
+    text-decoration: none solid rgb(158,224,255);
+}
+.Booking .warning{
+    color: rgb(241, 58, 58);
+    font-size: 12px;
+  }
+.Booking .backButton{
+        display: none;
+}
+/* Responsive */
+@media (max-width:875px) {
+    .Booking .whiteContainer {
+        padding: 65px 37px;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:767px) {
+    .Booking .container {
+        background: #fff;
+    }
+    .Booking .whiteContainer {
+        padding:37px 20px;
+    }
+    .Booking .topContainer{
+        padding:0 0 10px;
+    }
+    .Booking .topContainer .done{
+        font-size:16px; 
+        padding: 69px 37px;
+    }
+    .Booking .topContainer p {
+        font-size: 14px;
+    }
+    .Booking .signup {
+        margin: 15px 0 50px;
+    }
+    .Booking .facebook{
+        margin: 97px 0 0;
+    }  
+    .Booking .innerLogo{
+        display: none;
+    }
+    .Booking .backButton{
+        display: block;
+    }
+}
+@media (max-width:420px) {
+    .Booking .bottom_container {
+        max-width: 280px;
+    }
+    .Booking .facebook, .formField .inputTypeOne, .Booking .signup {
+        width: 270px;
+    }
+}
+@media (max-width:350px) {
+    .Booking .whiteContainer {
+        padding: 65px 20px;
+    }
+    .Booking .bottom_container {
+        max-width: 280px;
+    }
+    .Booking .facebook, .Booking .formField .inputTypeOne, .Booking .signup {
+        width: 270px;
+    }
+}

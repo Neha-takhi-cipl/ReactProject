@@ -1,0 +1,174 @@
+.AgentDashboard .container {
+  clear: both;
+  overflow: hidden;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.AgentDashboard .leftContainer {
+  height: 100%;
+  float: left;
+  width: 49.25%;
+  min-height: 100vh;
+  position: relative;
+}
+.AgentDashboard .rightContainerInner {
+  height: 88vh;
+  overflow-y: scroll;
+  padding: 0 0 90px 7px;
+}
+.AgentDashboard .TopHeading {
+  font-family: Comfortaa;
+  font-size: 36px;
+  color: #ffffff;
+  background: #39A469;
+  text-align: center;
+  padding: 22px 0;
+}
+
+.AgentDashboard .TripPreferenceBox {
+  margin: 0 0 50px;
+}
+
+.AgentDashboard .rightContainer {
+  width: 49.25%;
+  float: left;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.AgentDashboard .middleBar {
+  width: 1.5%;
+  height: 100%;
+  min-height: 150vh;
+  background-color: #3EA36A;
+  float: left;
+  position: fixed;
+  top: -100px;
+  z-index: 0;
+}
+.AgentDashboard .middleBarWrap{
+  width: 1.5%;
+  height: 100%;
+  min-height: 100vh;
+  float: left;
+  position: relative;
+}
+.AgentDashboard .container.mobile{
+  display:none; 
+}
+
+@media (max-width:1023px){
+  .AgentDashboard .container.mobile{
+    display:block; 
+    position: relative;
+  }
+  .AgentDashboard .container.desktop{
+    display:none; 
+  }
+  .AgentDashboard .container.mobile .leftContainer{
+      width: 100%;
+    }
+  .AgentDashboard .container.mobile .rightContainer{
+      width: 100%;
+      border-left:0;
+    }
+  .AgentDashboard .container.mobile .AgentDashTab{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width:300px;
+        margin: 0 auto;
+        background: #fff;
+        height: 24px;
+        border-radius: 40px;
+    }
+    .AgentDashboard .container.mobile .AgentDashTab li{
+       display: inline-block;
+      font-family: Comfortaa;
+      font-size: 14px;
+      color: #474747;
+      font-weight: 700;
+      width: 50%;
+      text-align: center;
+      outline:none; 
+      cursor: pointer;
+      font-weight: lighter;
+    }
+    .AgentDashboard .container.mobile .AgentDashTab .react-tabs__tab--selected{
+      color: #3cac71;
+      font-weight:bold;
+    }
+    .AgentDashboard .container.mobile .AgentDashTab li:first-child{
+      border-right: 1px solid #8a8a8a;
+      vertical-align: middle;
+      margin: -3px 0 0 0;
+    }
+    .AgentDashboard .container.mobile .top_tabs{
+      background-color: #3EA36A;
+      padding: 24px 0;
+      }
+  }
+
+  @media (max-width:767px){
+    .AgentHeader .Agent{
+      width:100%;
+    }
+
+
+  }
+/* 
+@media (max-width:1023px){
+.AgentDashboard .container.mobile{
+  display:block; 
+  position: relative;
+}
+.AgentDashboard .container.desktop{
+  display:none; 
+}
+.AgentDashboard .container.mobile .leftContainer{
+    width: 100%;
+  }
+.AgentDashboard .container.mobile .rightContainer{
+    width: 100%;
+    border-left:0;
+  }
+.AgentDashboard .container.mobile .AgentDashTab{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 193px;
+      margin: 0 auto;
+      background: #fff;
+      height: 24px;
+      border-radius: 40px;
+  }
+  .AgentDashboard .container.mobile .AgentDashTab li{
+     display: inline-block;
+    font-family: Comfortaa;
+    font-size: 14px;
+    color: #474747;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    outline:none; 
+    cursor: pointer;
+    font-weight: lighter;
+  }
+  .AgentDashboard .container.mobile .AgentDashTab .react-tabs__tab--selected{
+    color: #3cac71;
+    font-weight:bold;
+  }
+  .AgentDashboard .container.mobile .AgentDashTab li:first-child{
+    border-right: 1px solid #8a8a8a;
+    vertical-align: middle;
+    margin: -3px 0 0 0;
+  }
+  .AgentDashboard .container.mobile .top_tabs{
+    background-color: #3EA36A;
+    padding: 24px 0;
+
+    }
+
+} */

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+.home .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+    padding:30px 20px;
+    border: 2px solid #d1d1d1;
+    border-radius: 20px;
+    background: #fff;
+}
+.home .topcontainer p {
+    font-family: Baloo Bhaijaan;
+    font-size: 36px;
+    color: #3cac71;
+    text-decoration: none solid rgb(60,172,113);
+    text-align: center;
+    margin:0;
+}
+.home .bottomcontainer {
+    max-width: 502px;
+    margin: 0 auto;
+}
+.home .bottomcontainer h3 {
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    color: #3cac71;
+    margin: 0;
+}
+.home .bottomcontainer h4 {
+    margin: 0;
+}
+.home .bottomcontainer ul li {
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #3cac71;
+}
+.home .bottomcontainer p {
+    margin: 0 0 8px;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #3cac71;
+}
+.home .bottomcontainer .option1 h4, .home .bottomcontainer .option2 h4 {
+    font-family: Comfortaa;
+    font-size: 14px;
+    color: #3cac71;
+    text-decoration: underline solid rgb(60,172,113);
+}
+.home .bottomcontainer .option2 p span{
+    font-style:italic; 
+}
+.home .letStart {
+    padding:35px 0;
+}
+.home .letStart .homebutton {
+    height: 70px;
+    width: 302px;
+    font-size: 40px;
+}
+#app,#app > div{
+    height:100%;
+}
+@media  screen and (max-width: 1366px) {
+    .home .innerContainer{
+        padding:20px;
+    }
+    .home .letStart {
+        padding: 18px 0;
+    }
+}
+@media (max-width:875px) {
+    .home .innerContainer {
+        padding: 65px 50px;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:767px) {
+
+    .home .innerContainer {
+        padding: 150px 50px 65px;
+        background: none;
+    }
+    .home .topcontainer p {
+        font-size: 24px;
+    }
+    .home .letStart .homebutton {
+        height: 67px;
+        width: 221px;
+        font-size: 32px;
+    }
+    .home .letStart {
+        padding: 50px 0 0;
+    }
+    .home .bottomcontainer {
+        display: none;
+    }
+    .home .greenTitle {
+        display: none;
+    }
+}

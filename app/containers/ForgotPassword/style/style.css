@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+.forgotPassword{
+    height: 100vh;
+}
+.forgotPassword .container {
+    padding: 0 0 100px;
+    background: #DEDDE6;
+    height: 100vh;
+    float: left;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+}
+.forgotPassword .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+    padding:20px;
+    border: 2px solid #d1d1d1;
+    border-radius: 20px;
+    background: #fff;
+}
+.forgotPassword .formMsgs {
+    text-align: center;
+}
+.forgotPassword .formMsgs .info,
+.forgotPassword .formMsgs .warning {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.forgotPassword .topContainer {
+    padding:0;
+}
+.forgotPassword .topContainer p {
+    font-family: Baloo Bhaijaan;
+    font-size: 55px;
+    color: #3cac71;
+    text-align: center;
+    margin: 0;
+    
+}
+.forgotPassword .bottom_container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding:80px 0 0;
+    position: relative;
+}
+.forgotPassword .signup {
+    width: 300px;
+    height: 50px;
+    background-color: #ff530d;
+    background-repeat: no-repeat;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+.forgotPassword .formField {
+    margin: 0 0 9px;
+}
+.forgotPassword .formField .inputTypeOne {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #a3a3a3;
+    background-color: #ffffff;
+    font-family: PT Serif;
+    font-size: 14px;
+    color: #474747;
+    text-decoration: none solid rgb(166,166,166);
+    line-height: 66px;
+    outline: none;
+    padding: 0 10px 0 20px;
+}
+.forgotPassword  .info {
+    color: #41AB72;
+}
+.already_account {
+    font-family: Baloo Bhaijaan;
+    font-size: 14px;
+    color: #757575;
+    text-decoration: none solid rgb(117,117,117);
+    text-align: center;
+}
+.signin {
+    text-align: center;
+}
+.signin a {
+    font-family: Baloo Bhaijaan;
+    font-size: 14px;
+    color: #2a34b1;
+    text-decoration: none solid rgb(158,224,255);
+}
+.marginBottomfifteen {
+    margin-bottom: 15%;
+}
+#app,#app > div{
+    height:100%;
+}
+@media (max-width:875px) {
+    .forgotPassword .whiteContainer {
+        padding: 65px 37px;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:767px) {
+    .forgotPassword .innerContainer {
+        border: 1px solid #757575;
+        border-radius: 0;
+        margin: 0 30px;
+        padding: 15px;
+    }
+    .forgotPassword .whiteContainer {
+        padding: 69px 37px;
+    }
+    .forgotPassword .topContainer {
+        padding: 0 0 50px;
+    }
+    .forgotPassword .topContainer p {
+        font-size: 36px;
+    }
+    .forgotPassword .signup {
+        margin: 15px 0 50px;
+    }
+    .forgotPassword .facebook {
+        margin: 97px 0 30px;
+    }
+    .forgotPassword .innerLogo {
+        display: none;
+    }
+    .forgotPassword .bottom_container{
+        padding:0
+    }
+}
+@media (max-width:420px) {
+    .forgotPassword .bottom_container {
+        max-width: 250px;
+    }
+    .forgotPassword .facebook, .forgotPassword .formField .inputTypeOne, .forgotPassword .signup {
+        width: 250px;
+    }
+    .forgotPassword .topContainer p {
+        font-size: 25px;
+    }
+}
+@media (max-width:350px) {
+    .forgotPassword .whiteContainer {
+        padding: 65px 20px;
+    }
+    .forgotPassword .bottom_container {
+        max-width: 200px;
+    }
+    .forgotPassword .facebook, .forgotPassword .formField .inputTypeOne, .forgotPassword .signup {
+        width: 200px;
+    }
+}

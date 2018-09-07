@@ -1,0 +1,273 @@
+.addTraveler .addImg {
+  width: 38px;
+  height: 38px;
+}
+
+.addTraveler .addDropdown {
+  position: absolute;
+  width: 510px;
+  background-color: #757575;
+  right: 0;
+  top: 110px;
+  text-align: left;
+  padding: 20px 0 10px;
+  z-index: 1;
+}
+
+.addTraveler .ProfileInfo {
+  background: #757575;
+  position: absolute;
+  width: 510px;
+  left: 0;
+  top: 0;
+}
+.addTraveler.mobile .ProfileInfo {
+  width:100%;
+  height: 100%;
+}
+.addTraveler.mobile .ProfileInfo .expertise {
+  border-top: 6px solid #808080;
+  padding: 20px 15px;
+}
+.addTraveler.mobile .ProfileInfo .RightPart {
+  width: 100%;
+}
+.addTraveler.mobile .ProfileInfo .leftPart{
+  float: none;
+  margin: 0 auto !important;
+}
+
+.addTraveler .ProfileInfo .RightPart .groupForm .formInput {
+  max-width: unset;
+}
+
+.addTraveler .detailsWrapper .backIconWrapper .backIcon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 5px;
+}
+
+.addTraveler .detailsWrapper .ProfileInfo .leftPart {
+  margin-left: 35px;
+}
+
+.addTraveler .joined {
+  display: flex;
+  align-items: center;
+  border-bottom: 15px solid #8a8a8a;
+  padding: 0 20px 30px;
+}
+.addTraveler .centerContent {
+  justify-content: center
+}
+.addTraveler .texTwo{
+  font-family: Comfortaa;
+  font-size: 29px;
+  color: #FFFFFF;
+  padding-left: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.addTraveler .joinedCount {
+  font-family: Comfortaa;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 12px 0 0;
+}
+
+.addTraveler .joinedMember {
+  display: inline-block;
+}
+
+.addTraveler .joinedMember ul {
+  padding: 0;
+  margin: 0;
+}
+
+.addTraveler .joinedMember li {
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+.addTraveler .joinedMember li .agent {
+  margin: 0;
+  font-family: Comfortaa;
+  font-size: 11px;
+  color: #3cac71;
+}
+
+.addTraveler .joinedMember li .joinedPic img, .addTraveler .joinedMember li .joinedPic p, .addTraveler .joinedMember li .joinedPic {
+  width: 79px;
+  height: 79px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.addTraveler .joinedMember li .joinedPic p {
+  font-family: Baloo Bhaijaan;
+  font-size: 30px;
+  color: #3cac71;
+  text-align: center;
+  margin: 18px auto;
+}
+
+.addTraveler.mobile .joinedMember li .joinedPic p {
+  font-family: Baloo Bhaijaan;
+  font-size: 30px;
+  color: #3cac71;
+  text-align: center;
+  width: 69px;
+  height: 69px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.addTraveler .joinedMember li.mJoined {
+  margin-left: -30px;
+}
+
+.addTraveler .joinedMember li.ajoined {
+  margin-right: 32px;
+}
+
+.addTraveler .copyLink {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.addTraveler .copyLink p {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  margin: 23px 0 10px;
+}
+
+.addTraveler .copy {
+  width: 64px;
+  height: 36px;
+  border: 1px none #4cae4c;
+  border-radius: 2px;
+  background-color: #3cac71;
+  background-repeat: no-repeat;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: capitalize;
+  outline: none;
+  cursor: pointer;
+}
+
+.addTraveler .linkInput {
+  width: 200px;
+  height: 40px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #c7c7c7;
+  margin: 0 20px 0 0;
+  outline: none;
+  padding: 0 10px;
+}
+
+.addTraveler.mobile {
+  display: none;
+  text-align: left;
+}
+
+.addTraveler.mobile .NavList {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+}
+
+.addTraveler.mobile .addImg {
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+}
+
+.addTraveler.mobile .addDropdown {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #757575;
+  right: 0;
+  top: 0;
+  text-align: left;
+  padding:0;
+  z-index: 1;
+}
+
+.addTraveler.mobile .linkInput {
+  margin: 0 auto 25px;
+  display: block;
+}
+
+.addTraveler.mobile .copyLink {
+  padding: 50px 20px 0;
+  text-align: center;
+}
+
+.addTraveler.mobile .joined {
+  display: flex;
+  align-items: center;
+  border-bottom: 15px solid #8a8a8a;
+  padding: 80px 0 30px;
+  justify-content: center;
+}
+
+.addTraveler.mobile .popupHeading {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 27px;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.addTraveler.mobile .joinedMember li .joinedPic {
+  width: 69px;
+  height: 69px;
+}
+
+.addTraveler .textOne {
+  font-family: Comfortaa;
+  font-size: 14px;
+  color: #3cac71;
+  padding-left: 5px;
+  position: absolute;
+  margin-top: 8px;
+}
+
+@media (max-width:370px) {
+  .addTraveler.mobile .joinedCount {
+    font-size: 15px;
+  }
+  .addTraveler.mobile .copyLink {
+    padding: 40px 0 0;
+  }
+  .addTraveler.mobile .copyLink p {
+    font-size: 14px;
+  }
+}

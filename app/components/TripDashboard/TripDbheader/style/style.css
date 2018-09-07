@@ -1,0 +1,172 @@
+.tripHeader {
+  background-color: #3cac71;
+  height: 110px;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.tripHeader {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.tripHeader .book {
+  float: left;
+  width: 33%;
+  padding: 0 0 26px 26px;
+}
+
+.tripHeader .trip {
+  width: 33%;
+  float: left;
+  position: relative;
+  padding: 0 0 26px;
+  background: #3cac71;
+  height: 100%;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tripHeader .updates {
+  float: left;
+  width: 34%;
+  position: relative;
+  padding: 0 0 26px;
+  background: #3cac71;
+  height: 100%;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.tripHeader .updatedate {
+  width: 100%;
+  text-align: right;
+}
+
+.tripHeader .updateList {
+  list-style: none;
+  margin: 0;
+  padding: 0 69px 0 0;
+  text-align: right;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.tripHeader .updateList>li {
+  display: inline-block;
+  padding: 0 39px 0 0;
+  cursor: pointer;
+}
+.tripHeader .updateList li.bell{
+  display:none;
+}
+
+.tripHeader .updateList li.bell img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.tripHeader .updateList li.info {
+  padding: 0;
+  cursor: pointer;
+}
+
+.tripHeader .profile {
+  display: inline-flex;
+  text-align: right;
+  position: relative;
+  padding: 0 20px 0 0;
+}
+
+.tripHeader.Dashboard_Mobile {
+  display: none;
+  z-index: 2;
+}
+
+.backIcon {
+  width: 32px;
+  height: 40px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
+@media (max-width:1040px) {
+  .tripHeader .updateList>li {
+    padding: 0 20px 0 0;
+  }
+  .tripHeader .updateList {
+    padding: 0 35px 0 0;
+  }
+}
+
+@media (max-width:840px) {
+  .tripHeader .updateList li.bell img {
+    width: 24px;
+    height: 24px;
+  }
+  .addTraveler .addImg {
+    width: 30px;
+    height: 30px;
+  }
+  .invite .infoImg {
+    width: 38px;
+    height: 38px;
+  }
+  .EditProfile .profilePic {
+    width: 55px;
+    height: 55px;
+  }
+  .tripHeader .updateList>li {
+    padding: 0 18px 0 0;
+  }
+  .tripHeader .updateList {
+    padding: 0 24px 0 0;
+  }
+}
+
+@media (max-width:767px) {
+  .TripDashboard .Notifications.mobile {
+    display: block;
+  }
+  .tripHeader.Dashboard_Mobile {
+    display: block;
+  }
+  .tripHeader.Dashboard_Desktop,.Notifications.desktop {
+    display: none;
+  }
+  .mobile_update {
+    width: 20px;
+    height: 29px;
+  }
+  .mobile_menu {
+    width: 32px;
+    height: 32px
+  }
+  .tripHeader.Dashboard_Mobile .updates {
+    align-items: flex-start;
+    padding: 9px 15px 0 26px;
+  }
+  .tripHeader.Dashboard_Mobile .book {
+    padding: 12px 0 26px 15px;
+    visibility: hidden;
+  }
+  .tripHeader.Dashboard_Mobile .trip {
+    padding: 12px 0 26px;
+    align-items: flex-start;
+  }
+  .tripHeader.Dashboard_Mobile .tripInfo .tripName {
+    font-size: 16px;
+  }
+  .tripHeader.Dashboard_Mobile .trip {
+    position: static;
+  }
+  .tripHeader.Dashboard_Mobile .dropDown {
+    top: 101px;
+  }
+}

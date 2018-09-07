@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+.choose{
+    height:100vh;
+}
+
+.choose .container {
+    background: #DEDDE6;
+    padding: 0 0 65px;
+    height: 100vh;
+    float: left;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.choose .innerContainer {
+    max-width: 879px;
+    margin: 0 auto;
+    padding: 65px 65px 90px;
+    background: #fff;
+    position: relative;
+}
+
+.choose .innerLogo {
+    position: absolute;
+    padding: 15px 0 0 27px;
+}
+
+.choose .topContainer {
+    padding: 0 0 70px;
+    text-align: center;
+}
+
+.choose .topContainer p.heading1 {
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+
+.choose .topContainer p.heading2 {
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #000000;
+    font-style: italic;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+
+.choose .bottomContainer {
+    clear: both;
+    overflow: hidden;
+}
+
+.choose .bottomContainer p.want {
+    font-family: Comfortaa;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.choose .chooseTrip {
+    float: left;
+    width: 42%;
+}
+
+.choose .chooseTrip .homebutton, .choose .ownTrip .homebutton {
+    height: 80px;
+    max-width: 302px;
+}
+
+.choose .chooseTrip p {
+    opacity: 0.5;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+
+.choose .ownTrip {
+    float: right;
+    width: 42%;
+}
+
+.choose .ownTrip p {
+    opacity: 0.5;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+
+.choose .or {
+    width: 16%;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    display: inline-flex;
+    margin: 33px auto 0;
+    justify-content: center;
+}
+
+.choose .backButton {
+    display: none;
+}
+
+/* Responsive */
+
+@media (max-width:1550px) {
+    .choose .innerLogo {
+        position: static;
+        padding: 15px 0 0 27px;
+    }
+}
+
+@media (max-width:875px) {
+    .choose .innerContainer {
+        padding: 65px 50px;
+        border: none;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .choose .container {
+        background: #fff;
+    }
+    .choose .innerContainer {
+        padding: 39px 20px 65px;
+    }
+    .choose .topContainer {
+        display: none;
+    }
+    .choose .chooseTrip {
+        float: none;
+        width: 100%;
+    }
+    .choose .ownTrip {
+        float: none;
+        width: 100%;
+    }
+    .choose .or {
+        width: 100%;
+        margin: 0 auto;
+        padding: 60px 0 40px;
+    }
+    .choose .chooseTrip p, .choose .ownTrip p {
+        margin: 0;
+        font-size: 18px;
+    }
+    .choose .chooseTrip .homebutton, .choose .ownTrip .homebutton {
+        height: 68px;
+        max-width: 260px;
+    }
+    .choose .bottomContainer p.want {
+        font-size: 16px;
+        margin: 0 0 140px;
+    }
+    .choose .innerLogo, .greenTitle {
+        display: none;
+    }
+    .choose .backButton {
+        display: block;
+    }
+}

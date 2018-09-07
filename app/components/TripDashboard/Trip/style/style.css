@@ -1,0 +1,56 @@
+/*
+ * Trip Styles
+ *
+ * This contains all the Styles for the Trip component.
+ */
+.tripInfo .tripName{
+    text-align: center;
+    font-family: Baloo Bhaijaan;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.tripInfo .tripNameTriangle:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+}
+.tripInfo .dropDown {
+  position: absolute;
+  background: #757575;
+  text-align: left;
+  z-index: 1;
+  width: 100%;
+  top: 110px;
+  left: 0;
+  right: 0;
+}
+.tripInfo .dropDown ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.tripInfo .dropDown ul li button{
+  outline: none;
+  cursor: pointer;
+  padding: 20px 30px;
+  width: 100%;
+}
+.tripInfo .dropDown ul li{
+  height: 72px;
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+} 
+.tripInfo .dropDown ul li:first-child{
+  border-bottom: 5px solid #8a8a8a;
+}

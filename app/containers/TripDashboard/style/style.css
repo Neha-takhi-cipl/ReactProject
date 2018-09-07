@@ -1,0 +1,838 @@
+.TripDashboard .container {
+  clear: both;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.TripDashboard .leftContainer {
+  float: left;
+  width: 50%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.TripDashboard .rightContainer {
+  width: 50%;
+  float: right;
+  position: relative;
+  min-height: 100vh;
+  border-left: 26px solid #3cac71;
+}
+
+.TripDashboard .rightContainerInner, .TripDashboard .leftContainerInner {
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 120px 0 100px 0px;
+  width: 100%;
+}
+
+.TripDashboard .onlineWrap {
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 8px;
+  box-shadow: 0 0.0001px 0 0.00001px grey;
+}
+
+.TripDashboard .onlineIcon {
+  width: 10px;
+  height: 10px;
+  background-color: #22f79b;
+  border-radius: 100%;
+}
+
+.TripDashboard .middleText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /*height: 82vh;*/
+}
+
+.TripDashboard .middleText .rightText {
+  opacity: 0.5;
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center
+}
+
+.welcomePop .mainHeading {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #757575;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.welcomePop .subHeading {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #757575;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.welcomePop .middlePart {
+  padding: 35px 20px 20px;
+}
+
+.welcomePop .middlePart p {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.welcomePop .bottomPart {
+  border-top: 2px solid #c8c8c8;
+  padding: 15px 20px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.welcomePop .tripName {
+  width: 227px;
+  height: 37px;
+  padding: 0px 10px;
+  border: 1px solid #757575;
+  background-color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #a3a3a3;
+  text-decoration: none solid rgb(163, 163, 163);
+  line-height: 20px;
+}
+
+.welcomePop .Done {
+  width: 95px;
+  height: 38px;
+  border: 1px solid #3cac71;
+  border-radius: 100px;
+  background-color: #3cac71;
+  background-repeat: no-repeat;
+  font-family: Baloo Bhaijaan;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  float: right;
+  cursor: pointer;
+}
+
+.TripDashboard .chatSection {
+  width: 391px;
+  height: 200px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 110px;
+  z-index: 1;
+}
+
+.chatSection:after {
+  content: "";
+  border-top: 20px solid #000;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  display: inline-block;
+  position: absolute;
+  left: 170px;
+  bottom: -20px;
+}
+
+.TripDashboard .itiSection {
+  width: 322px;
+  height: 184px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 110px;
+  z-index: 1;
+}
+
+.itiSection:after {
+  content: "";
+  border-top: 20px solid #000;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  display: inline-block;
+  position: absolute;
+  left: 138px;
+  bottom: -20px;
+}
+
+.TripDashboard .TopbarSection {
+  width: 331px;
+  height: 283px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 30px 20px;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+}
+
+.TopbarSection:before {
+  content: "";
+  border-bottom: 20px solid #000;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  display: inline-block;
+  position: absolute;
+  left: 138px;
+  top: -20px;
+}
+
+.TripDashboard .chatSection .mainHeading, .TripDashboard .itiSection .mainHeading, .TripDashboard .TopbarSection .mainHeading {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.TripDashboard .chatSection .subHeading, .TripDashboard .itiSection .subHeading {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+  line-height: 30px;
+}
+
+.TripDashboard .chatSection .bottomPart, .TripDashboard .itiSection .bottomPart {
+  padding: 30px 0 0;
+}
+
+.TripDashboard .TopbarSection .bottomPart {
+  padding: 10px 0 0;
+}
+
+.TripDashboard .chatSection .bottomPart .skip, .TripDashboard .itiSection .bottomPart .skip, .TripDashboard .TopbarSection .bottomPart .skip {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  width: 33%;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
+
+.TripDashboard .chatSection .bottomPart .pagination, .TripDashboard .itiSection .bottomPart .pagination, .TripDashboard .TopbarSection .bottomPart .pagination {
+  opacity: 0.5;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000000;
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+
+.TripDashboard .chatSection .bottomPart .next, .TripDashboard .itiSection .bottomPart .next, .TripDashboard .TopbarSection .bottomPart .next {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  width: 33%;
+  text-align: right;
+  padding: 0;
+  cursor: pointer;
+}
+
+.TripDashboard .TopbarSection .manage {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.TripDashboard .TopbarSection ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+  line-height: 28px;
+}
+
+.TripDashboard .TopbarSection ul li {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+}
+
+.TripDashboard .overlayTop {
+  background: rgba(0, 0, 0, 0.6);
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  height: 110px;
+  width: 100%;
+  z-index: 2;
+}
+
+.TripDashboard .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.TripDashboard .overlayActive {
+  background: transparent;
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.TripDashboard .zIndex {
+  z-index: 3;
+}
+
+.TripDashboard .overlayTopHalf {
+  background: rgba(0, 0, 0, 0.6);
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 42%;
+  z-index: 2;
+}
+
+.TripDashboard .overlayTopHalfActive {
+  background: transparent;
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 58%;
+  z-index: 2;
+  right: 0;
+}
+
+.TripDashboard .absoluteContainer {
+  position: absolute;
+  top: -121px;
+}
+
+.TripDashboard .addText {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+}
+
+.TripDashboard .sharedImage {
+  width: 156px;
+  border: 1px solid #c8c8c8;
+  border-radius: 1px;
+  background-color: #e8e8e8;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.TripDashboard .documentWrap {
+  border: 1px solid #c8c8c8;
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 1px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+  background-color: rgb(221, 242, 215);
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 0px;
+  width: 269px;
+  float: left;
+}
+
+.TripDashboard .nameDownloadIconWrap {
+  width: 214px;
+  float: left;
+}
+
+.TripDashboard .downloadIconWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TripDashboard .downloadIcon {
+  fill: rgb(0, 0, 0);
+  width: 19px;
+  height: 19px;
+  margin: 0 auto;
+}
+
+.TripDashboard .fileName {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+.TripDashboard .rowWrapper {
+  padding-top: 15px;
+}
+
+.TripDashboard .documentIcon {
+  width: 40px;
+  margin-left: 0px;
+  margin-top: 5px;
+  float: left;
+}
+
+.TripDashboard .itineraryRowItem {
+  padding-left: 7px;
+}
+
+.WelcomePopup .warning {
+  color: rgb(241, 58, 58);
+  font-size: 13px;
+  padding: 5px;
+  display: block;
+}
+
+.WelcomePopup .bottomLeft {
+  width: 75%;
+  float: left;
+}
+
+.WelcomePopup {
+  position: relative;
+  width: auto;
+  margin: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WelcomePopup-wrap {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.WelcomePopup-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.WelcomePopup-content {
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 1px solid #c8c8c8;
+}
+
+.WelcomePopup-close {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  font-size: 21px;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+  text-decoration: none;
+}
+
+.WelcomePopup-close-x:after {
+  content: '×';
+}
+
+.WelcomePopup-close:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  text-decoration: none;
+}
+
+.WelcomePopup-header {
+  padding: 13px 20px 14px 20px;
+  border-radius: 5px 5px 0 0;
+  background: #fff;
+  color: #666;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.WelcomePopup-body {
+  padding: 20px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.WelcomePopup-footer {
+  border-top: 1px solid #e9e9e9;
+  padding: 10px 20px;
+  text-align: right;
+  border-radius: 0 0 5px 5px;
+}
+
+.WelcomePopup-zoom-enter, .WelcomePopup-zoom-appear {
+  opacity: 0;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+  animation-play-state: paused;
+}
+
+.WelcomePopup-zoom-leave {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+  animation-play-state: paused;
+}
+
+.WelcomePopup-zoom-enter.WelcomePopup-zoom-enter-active, .WelcomePopup-zoom-appear.WelcomePopup-zoom-appear-active {
+  animation-name: rcDialogZoomIn;
+  animation-play-state: running;
+}
+
+.WelcomePopup-zoom-leave.WelcomePopup-zoom-leave-active {
+  animation-name: rcDialogZoomOut;
+  animation-play-state: running;
+}
+
+.rc-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 4px 15px;
+  font-size: 12px;
+  border-radius: 6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position: relative;
+  color: #666;
+  background-color: #f7f7f7;
+  border-color: #d9d9d9;
+}
+
+.rc-btn-primary {
+  color: #fff;
+  background-color: #3cac71;
+  border-color: #3cac71;
+}
+
+.rc-btn-primary:hover {
+  color: #fff;
+  background-color: #3cac71;
+  border-color: #3cac71;
+}
+
+.rc-btn-ghost {
+  color: #666;
+  background-color: transparent;
+  border-color: #d9d9d9;
+}
+
+.rc-btn-ghost:hover {
+  color: #3cac71;
+  background-color: transparent;
+  border-color: #3cac71;
+}
+
+@keyframes rcDialogZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes rcDialogZoomOut {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  .container.mobile {
+    display: none;
+  }
+  .WelcomePopup {
+    width: 600px;
+    margin: 30px auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.WelcomePopup-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  z-index: 1050;
+}
+
+.WelcomePopup-mask-hidden {
+  display: none;
+}
+
+.WelcomePopup-fade-enter, .WelcomePopup-fade-appear {
+  opacity: 0;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+  animation-play-state: paused;
+}
+
+.WelcomePopup-fade-leave {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+  animation-play-state: paused;
+}
+
+.WelcomePopup-fade-enter.WelcomePopup-fade-enter-active, .WelcomePopup-fade-appear.WelcomePopup-fade-appear-active {
+  animation-name: rcDialogFadeIn;
+  animation-play-state: running;
+}
+
+.WelcomePopupg-fade-leave.WelcomePopup-fade-leave-active {
+  animation-name: rcDialogFadeOut;
+  animation-play-state: running;
+}
+
+.TripDashboard .timeRow {
+  font-family: Comfortaa;
+  font-size: 12px;
+  color: #757575;
+  text-decoration: none solid rgb(117, 117, 117);
+  text-align: center;
+}
+
+.TripDashboard .fullName {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #9c9c9c;
+  text-decoration: none solid rgb(156, 156, 156);
+}
+
+.TripDashboard .whiteBox {
+  border: 1px solid #c8c8c8;
+  border-radius: 1px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.TripDashboard .greenBox {
+  border: 1px solid #c8c8c8;
+  border-radius: 1px;
+  background-color: #ddf2d7;
+  padding: 5px;
+}
+
+.TripDashboard .messageText {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none solid rgb(0, 0, 0);
+}
+
+.TripDashboard .leftContainerInner p {
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.TripDashboard .profilePic {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+  float: right;
+  margin-right: 10px;
+  
+}
+.TripDashboard .pictureWrapper .upperDp{
+  clear: both;
+  overflow: hidden;
+  width: 55px;
+  float: right;
+}
+.TripDashboard .pictureWrapper .upperDp .ProfileInfo{
+  display:none;
+}
+.TripDashboard .pictureWrapper .upperDp:hover .ProfileInfo {
+  display: block;
+  transition: all ease .10s;
+}
+
+.TripDashboard .pictureWrapper .upperDp {
+  clear: both;
+  overflow: hidden;
+  width: 55px;
+  float: right;
+}
+
+.TripDashboard .pictureWrapper .upperDp .ProfileInfo {
+  display: none;
+}
+
+.TripDashboard .pictureWrapper .upperDp:hover .ProfileInfo {
+  display: block;
+  transition: all ease .10s;
+}
+
+.TripDashboard .userPic {
+  font-family: Baloo Bhaijaan;
+  font-size: 15px;
+  color: #3cac71;
+  text-align: center;
+  margin: 9px auto;
+}
+
+.TripDashboard .pictureWrapper {
+  float: left;
+  position: relative;
+  margin-left: 25px;
+}
+
+.TripDashboard .messageBoxWrapper {
+  width: auto;
+  float: left;
+  max-width: 80%;
+}
+
+@keyframes rcDialogFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rcDialogFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.TripDashboard .fullWidth {
+  width: 100%;
+  float: left;
+}
+
+.TripDashboard .addAmountInfo {
+  position: absolute;
+  right: 16px;
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #a3a3a3;
+}
+
+.TripDashboard .addWrapper {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .container.desktop {
+    display: none;
+  }
+  .TripDashboard .container.mobile .leftContainer {
+    width: 100%;
+  }
+  .TripDashboard .container.mobile .rightContainer {
+    width: 100%;
+    border-left: 0;
+  }
+  .TripDashboard .container.mobile .TripDashTab {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 193px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    height: 24px;
+    border-radius: 40px;
+    z-index: 2;
+  }
+  .TripDashboard .container.mobile .TripDashTab li {
+    display: inline-block;
+    font-family: Comfortaa;
+    font-size: 14px;
+    color: #474747;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-weight: lighter;
+  }
+  .TripDashboard .container.mobile .TripDashTab .react-tabs__tab--selected {
+    color: #3cac71;
+    font-weight: bold;
+  }
+  .TripDashboard .container.mobile .TripDashTab li:first-child {
+    border-right: 1px solid #8a8a8a;
+    vertical-align: middle;
+    margin: -3px 0 0 0;
+  }
+}

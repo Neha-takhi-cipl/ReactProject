@@ -1,0 +1,10 @@
+.tripDate{
+    height: 33px;
+    border: 1px solid #757575;
+    background-color: #a4abbf;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: #757575;
+    font-size: 18px;
+}

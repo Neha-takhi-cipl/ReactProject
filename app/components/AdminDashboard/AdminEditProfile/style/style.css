@@ -1,0 +1,70 @@
+.AdminEditProfile.desktop .profilePic, .AdminEditProfile.desktop .profilepic {
+  width: 69px;
+  height: 69px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.AdminEditProfile .dropDown {
+  position: absolute;
+  width: 237px;
+  background: #757575;
+  right: 0;
+  top: 110px;
+  text-align: left;
+  z-index: 1;
+}
+
+.AdminEditProfile .dropDown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.AdminEditProfile .dropDown ul li button {
+  outline: none;
+  cursor: pointer;
+}
+
+.AdminEditProfile .dropDown ul li {
+  height: 72px;
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.AdminEditProfile .dropDown ul li:first-child {
+  border-bottom: 5px solid #8a8a8a;
+}
+
+.AdminEditProfile.mobile {
+  display: none;
+  text-align: left;
+}
+
+.AdminEditProfile.mobile .NavList {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.AdminEditProfile.mobile .profilePic , .AdminEditProfile.mobile .profilepic{
+  width: 50px;
+  height: 50px;
+  margin: 0 35px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+.AdminEditProfile.mobile .dropDown {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}

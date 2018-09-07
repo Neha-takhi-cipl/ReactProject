@@ -1,0 +1,79 @@
+.itineraties{
+    width: 536px;
+    height: 121px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #a4abbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itineraties ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.itineraties ul li{
+    float:left;
+    margin: 0 21px 0 0;
+}
+.itineraties ul li:last-child{
+  margin:0;
+}
+.itineraties .itImg{
+  background: rgb(226, 225, 233);
+  height: 60px;
+  width: 66px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+}
+.itineraties .itName{
+  height: 14px;
+  font-family: Comfortaa;
+  font-size: 11px;
+  color: #000000;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 0 12px;
+}
+.itineraties img{
+  width: 39px;
+  height: 39px;
+}
+@media (max-width:1120px){
+    .itineraties {
+      width: 350px;
+      height: 121px;
+  }
+  .itineraties ul li {
+    margin: 0 12px 0 0;
+  }
+  .itineraties .itImg {
+    height: 50px;
+    width: 50px;
+  }
+  .itineraties img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width:380px){
+  .itineraties {
+    width: 315px;
+}
+.itineraties ul li {
+  margin: 0 9px 0 0;
+}
+.itineraties .itImg {
+  height: 45px;
+  width: 45px;
+}
+.itineraties img {
+  width: 25px;
+  height: 25px;
+}
+}

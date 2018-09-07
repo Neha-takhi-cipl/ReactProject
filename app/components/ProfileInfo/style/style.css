@@ -1,0 +1,259 @@
+.ProfileInfo {
+  background: #757575;
+  position: absolute;
+  width: 455px;
+  left: 93.5%;
+}
+
+.ProfileInfo .leftPart {
+  width: 90px;
+  height:90px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfileInfo .leftPart p {
+  font-family: Baloo Bhaijaan;
+  font-size: 40px;
+  color: #3cac71;
+  text-align: center;
+  margin: 19px auto;
+}
+
+.ProfileInfo .groupForm label {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px 0 0;
+}
+
+.ProfileInfo .expertise .groupForm {
+  margin: 0;
+}
+
+.ProfileInfo .expertise .groupForm label {
+  width: 100px;
+  display: inline-block;
+}
+
+.ProfileInfo .RightPart {
+  width: 70%;
+  float: right;
+  padding: 12px 15px 0 0;
+}
+
+.ProfileInfo .RightPart .groupForm {
+  padding: 0;
+}
+
+.ProfileInfo .RightPart .groupForm:last-child {
+  padding: 0;
+}
+
+.ProfileInfo .RightPart .groupForm .formInput {
+  background: #fff;
+  outline: none;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.ProfileInfo .exp_Para {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.ProfileInfo .topPart {
+  clear: both;
+  overflow: hidden;
+  padding: 5px 15px;
+}
+
+.ProfileInfo .expertise {
+  border-top: 6px solid #808080;
+  padding: 25px 26px 25px 28px;
+}
+
+.ProfileInfo .expertise .groupForm .formInput {
+  background: #fff;
+  outline: none;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  width: 75%;
+  border-radius: 4px;
+}
+
+.ProfileInfo .bottomPart {
+  text-align: right;
+  padding: 15px 26px 15px 0;
+  background: #DEDDE6;
+}
+
+.ProfileInfo .bottomPart .confirm {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+
+.ProfileInfo #file-input {
+  display: none;
+}
+
+.ProfileInfo .inputfile {
+  cursor: pointer;
+  border-radius: 100%;
+  display: block;
+}
+
+.ProfileInfo .warning {
+  color: rgb(241, 58, 58);
+  font-size: 14px;
+}
+
+.ProfileInfo .profilepic {
+  width: 101px;
+}
+
+.ProfileInfo .cropheader {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none solid rgb(255, 255, 255);
+  outline: none;
+  cursor: pointer;
+}
+
+.ProfileInfo .rc-preview-wrapper {
+  padding: 0;
+  border: 0px solid #d9d9d9;
+  border-radius: 0;
+}
+
+.ProfileInfo .rc-btn-ghost {
+  background-color: transparent;
+  border-width: 0;
+  position: absolute;
+  z-index: 1;
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.ProfileInfo .rc-btn-ghost span {
+  display: none;
+}
+
+.ProfileInfo p.formInput {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: transparent !important;
+  color: #3cac71 !important;
+}
+
+.ProfileInfo .Agentinfo_para {
+  font-family: Comfortaa;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.AgentInfo_add_btn {
+  width: 93px;
+  height: 32px;
+  border: 1px solid #3cac71;
+  border-radius: 100px;
+  background-color: #3cac71;
+  background-repeat: no-repeat;
+  font-family: Baloo Bhaijaan;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  float: right;
+  cursor: pointer;
+}
+
+.ProfileInfoing.mobile {
+  display: none;
+  text-align: left;
+}
+
+.ProfileInfoing.mobile .ProfileInfo .leftPart {
+  width: 106px;
+  height: 106px;
+  float: none;
+  margin: 0 auto;
+}
+
+.ProfileInfoing.mobile .ProfileInfo .RightPart {
+  width: 80%;
+  float: none;
+  padding: 12px 15px 0 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.ProfileInfoing.mobile .ProfileInfo {
+  background: #757575;
+  width: 100%;
+  min-height: auto;
+  padding: 25px 0 15px 20px;
+  position: absolute;
+}
+
+.ProfileInfoing.mobile .ProfileInfo .bottomPart {
+  text-align: center;
+  padding: 0;
+  background: #DEDDE6;
+  width: 100px;
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+.ProfileInfoing.mobile .ProfileInfo .expertise {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ProfileInfoing .headerWrap {
+  width: 100%;
+  float: left;
+  margin-top: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 6%;
+}
+
+.ProfileInfoing .BackArrow {
+  width: 10%;
+  float: left;
+}
+
+@media (max-width:767px) {
+  .ProfileInfoing.mobile {
+    display: block;
+  }
+  .ProfileInfoing.desktop {
+    display: none;
+  }
+}

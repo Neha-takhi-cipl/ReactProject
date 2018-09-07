@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.innerContainer{
+
+	max-width: 875px;
+    margin: 0 auto;
+    padding:60px;
+    border-radius: 20px;
+}
+

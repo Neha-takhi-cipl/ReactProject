@@ -1,0 +1,313 @@
+.AgentInfoList {
+  background: #757575;
+  padding: 25px 0 0 0;
+}
+
+.AgentInfoList .leftPart {
+  width: 33%;
+  float: left;
+  margin: 10px 0 0;
+}
+
+.AgentInfoList .leftPart {
+  width: 101px;
+  height: 101px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.AgentInfoList .leftPart p {
+  font-family: Baloo Bhaijaan;
+  font-size: 40px;
+  color: #3cac71;
+  text-align: center;
+  margin: 19px auto;
+}
+
+.AgentInfoList .groupForm label {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px 0 0;
+}
+
+.AgentInfoList .expertise .groupForm {
+  margin: 0;
+}
+
+.AgentInfoList .expertise .groupForm label {
+  width: 100px;
+  display: inline-block;
+}
+
+.AgentInfoList .RightPart {
+  width: 70%;
+  float: right;
+  padding: 10px 15px 0 0;
+}
+
+.AgentInfoList .RightPart .groupForm {
+  padding: 0;
+}
+
+.AgentInfoList .RightPart .groupForm:last-child {
+  padding: 0;
+}
+
+.AgentInfoList .RightPart .groupForm .formInput {
+  background: #fff;
+  outline: none;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  max-width: 40%;
+  border-radius: 4px;
+}
+
+.AgentInfoList .exp_Para {
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.AgentInfoList .topPart {
+  clear: both;
+  overflow: hidden;
+  padding: 0 0 30px 15px;
+}
+
+.AgentInfoList .expertise {
+  border-top: 6px solid #808080;
+  padding: 25px 26px 25px 15px;
+}
+
+.AgentInfoList .expertise .groupForm .formInput {
+  background: #fff;
+  outline: none;
+  font-family: Comfortaa;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  width: 75%;
+  border-radius: 4px;
+}
+
+.AgentInfoList .bottomPart {
+  text-align: right;
+  padding: 15px 26px 15px 0;
+  background: #DEDDE6;
+}
+
+.AgentInfoList .bottomPart .confirm {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+
+.AgentInfoList #file-input {
+  display: none;
+}
+
+.AgentInfoList .inputfile {
+  cursor: pointer;
+  border-radius: 100%;
+  display: block;
+}
+
+.AgentInfoList .warning {
+  color: rgb(241, 58, 58);
+  font-size: 14px;
+}
+
+.AgentInfoList .profilepic {
+  width: 101px;
+}
+
+.AgentInfoList .cropheader {
+  font-family: Comfortaa;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none solid rgb(255, 255, 255);
+  outline: none;
+  cursor: pointer;
+}
+
+.AgentInfoList .rc-preview-wrapper {
+  padding: 0;
+  border: 0px solid #d9d9d9;
+  border-radius: 0;
+}
+
+.AgentInfoList .rc-btn-ghost {
+  background-color: transparent;
+  border-width: 0;
+  position: absolute;
+  z-index: 1;
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.AgentInfoList .rc-btn-ghost span {
+  display: none;
+}
+
+.AgentInfoList p.formInput {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: transparent !important;
+  color: #3cac71 !important;
+}
+/* .AgentInfoListing.mobile .AgentInfoList .expertise .groupForm label{
+  width: 25%;
+} */
+.AgentInfoListing.mobile .AgentInfoList .expertise .groupForm .formInput{
+  width:auto;
+}
+.AgentInfoListing.mobile .AgentInfoList .RightPart .groupForm .formInput{
+  max-width:inherit;
+}
+.AgentInfoList .Agentinfo_para {
+  font-family: Comfortaa;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.AgentInfo_add_btn {
+  width: 93px;
+  height: 32px;
+  border: 1px solid #3cac71;
+  border-radius: 100px;
+  background-color: #3cac71;
+  background-repeat: no-repeat;
+  font-family: Baloo Bhaijaan;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  float: right;
+  cursor: pointer;
+}
+
+.AgentInfoListing.mobile {
+  display: none;
+  text-align: left;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+.AgentInfoListing.mobile .AgentInfoList .leftPart {
+  float: none;
+  margin: 0 auto;
+}
+
+.AgentInfoListing.mobile .AgentInfoList .RightPart {
+  width: 100%;
+  float: none;
+  padding: 12px 15px 0 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.AgentInfoListing.mobile .AgentInfoList {
+  padding: 25px 0 0 0 ;
+}
+
+.AgentInfoListing.mobile .AgentInfoList .bottomPart {
+  text-align: center;
+  padding: 0;
+  background: #DEDDE6;
+  width: 100px;
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+.AgentInfoListing.mobile .AgentInfoList .expertise {
+  width: 100%;
+  margin: 0 auto;
+}
+.AgentInfoListing .headerWrap {
+  width: 100%;
+  float: left;
+  margin-top: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 6%;
+}
+
+.AgentInfoListing .BackArrow {
+  width: 10%;
+  float: left;
+}
+
+@media (max-width:767px) {
+  .AgentInfoListing.mobile {
+    display: block;
+  }
+  .AgentInfoListing.desktop {
+    display: none;
+  }
+}
+
+/*
+.AgentInfoListing.mobile .AgentInfoList {
+    background: #757575;
+    width: 100%;
+    min-height: auto;
+    padding: 25px 0 15px 20px;
+    position: absolute;
+    height:100%;
+    right: 0;
+    top: 0;
+}
+.AgentInfoListing.mobile .AgentInfoList .leftPart {
+    width: 106px;
+    height: 106px;
+    float: none;
+    margin: 0 auto;
+}
+.AgentInfoListing.mobile .AgentInfoList .RightPart {
+    width: 80%;
+    float: none;
+    padding: 50px 15px 0 0;
+    margin: 0 auto;
+    display: block;
+}
+.AgentInfoListing.mobile .AgentInfoList .popupHeading{
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 27px;
+}
+.AgentInfoListing.mobile .AgentInfoList .topPart{
+    padding: 80px 0 30px;
+}
+.AgentInfoListing.mobile .AgentInfoList .bottomPart {
+    text-align: center;
+    border-top: 0;
+    padding: 15px 0 0 0;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.AgentInfoListing.mobile .AgentInfoList .RightPart .groupForm .formInput{
+    max-width:60%; 
+}*/
