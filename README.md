@@ -88,6 +88,10 @@ There are three packages global install in the environment.
   asynchronicity helpers, etc.
 * [**Troubleshooting**](docs/general/gotchas.md): Solutions to common problems faced by developers.
 
+## Developers:-
+1. Neha Takhi
+2. Pravin Kumar
+
 ## License
 
-This project is licensed under the MIT license, Copyright (c) 2017 Classic. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2017 Classic. For more information see `LICENSE.
